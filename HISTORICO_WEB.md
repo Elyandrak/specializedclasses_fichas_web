@@ -1,5 +1,10 @@
 # Histórico web
 
+## Web 2.4.3
+- Añadida imagen Open Graph en `assets/preview-specialized-classes.png`.
+- Añadidas metaetiquetas `og:*` y `twitter:*` en las páginas principales para que WhatsApp, Discord, Telegram y redes puedan mostrar imagen al pegar el enlace.
+- No cambia ningún dato del mod ni de las clases; solo cambia la presentación web del enlace compartido.
+
 ## Web 2.4.2
 - Añadida la versión histórica del mod `Specialized Classes 2.2.2` al selector.
 - Datos nuevos en `data/mod_versions/2.2.2/`.

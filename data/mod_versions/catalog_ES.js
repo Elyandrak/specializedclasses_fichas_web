@@ -1,6 +1,6 @@
 window.SC_MOD_VERSION_CATALOG = {
   "schema": "specializedclasses.version_catalog_ES.v1",
-  "packageVersion": "2.4.2",
+  "packageVersion": "2.4.3",
   "defaultVersion": "3.0.0-rc.1",
   "versions": [
     {
