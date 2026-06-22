@@ -1,4 +1,5 @@
-Web/documentación: 2.4.1
-Mod analizado por defecto: specializedclasses 3.0.0-rc.1
+Web/documentación Specialized Classes: 2.4.2
+Versión del mod por defecto: 3.0.0-rc.1
+Versión histórica añadida: 2.2.2
 
-Nota: la versión 2.4.1 pertenece a esta web/documentación, no al mod ni al juego.
+Nota: 2.4.2 es versión de esta web/documentación, no del mod.

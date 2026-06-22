@@ -19,7 +19,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap
 .usage-card h3{margin-top:16px}.usage-steps li{margin:8px 0}.method-note{margin-top:5px;color:var(--blue);font-size:13px}.usage-note{border-left:4px solid var(--blue);padding:8px 10px;background:rgba(143,200,255,.08);border-radius:8px;color:var(--text)}
 
 
-/* 2.4.1 visual rollback: dynamic class page with 2.1.2 ficha style */
+/* Visual rollback introduced in web 2.4.1: dynamic class page with 2.1.2 ficha style */
 .active-class{color:var(--gold2);font-weight:bold}.side-version{margin-top:18px;padding-top:14px;border-top:1px solid rgba(122,84,41,.6)}
 .side-version .select{min-width:0;width:100%;font-size:13px;padding:9px 10px}.side-version .select-label{font-size:12px}.layout>.panel.side{max-height:calc(100vh - 32px);overflow:auto}
 .card .grid{margin-top:12px}.usage-card{border-color:var(--line)}

@@ -1,5 +1,13 @@
+Versión web/documentación: 2.4.2
+Mod por defecto: 3.0.0-rc.1
+Mod histórico añadido: 2.2.2
+
+Versión web/documentación: 2.4.2
+Mod incluido por defecto: 3.0.0-rc.1
+Mod histórico añadido: 2.2.2
+
 Specialized Classes — fichas dinámicas ES
-Web/documentación: 2.4.1
+Web/documentación: 2.4.2
 Mod analizado por defecto: specializedclasses 3.0.0-rc.1
 
 Abrir:
@@ -8,7 +16,7 @@ Abrir:
 3. Usa Fichas, Rasgos y efectos, Objetos y uso o Histórico web.
 
 Notas importantes:
-- La versión 2.4.1 es de esta web/documentación, no del mod ni del juego.
+- La versión 2.4.2 es de esta web/documentación, no del mod ni del juego.
 - La web dinámica lee datos desde data/mod_versions/.
 - Rasgos, bonus y malus están en traits_ES.js.
 - Herramientas y uso real por clase están en usage_ES.js.

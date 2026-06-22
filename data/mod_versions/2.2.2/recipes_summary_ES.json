@@ -1,0 +1,2013 @@
+{
+  "schema": "specializedclasses.recipes_summary_ES.v1",
+  "modVersion": "2.2.2",
+  "note_es": "Resumen ligero para la web. Contabiliza recetas/desbloqueos específicos por clase extraídos del ZIP 2.2.2; ignora recetas genéricas sin requiredTrait.",
+  "recipesByClass": {
+    "archivist": {
+      "total": 18,
+      "byMethod": {
+        "estación": 1,
+        "mesa normal": 16,
+        "compatibilidad": 1
+      },
+      "topCategories": [
+        {
+          "category": "Materiales envejecidos y restauración visual",
+          "count": 9
+        },
+        {
+          "category": "Reciclaje de objetos de ruinas",
+          "count": 3
+        },
+        {
+          "category": "Papel, pergaminos y linternas",
+          "count": 3
+        },
+        {
+          "category": "Cuero, bolsas y equipo blando",
+          "count": 1
+        },
+        {
+          "category": "Bolsas y contenedores especializados",
+          "count": 1
+        },
+        {
+          "category": "Planos de ruinas / Better Ruins",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "estuche de pergaminos",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Materiales envejecidos y restauración visual",
+          "output": "Planks agedebony ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Materiales envejecidos y restauración visual",
+          "output": "Planks rottenebony ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Materiales envejecidos y restauración visual",
+          "output": "Log placed aged ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Materiales envejecidos y restauración visual",
+          "output": "Debarkedlog veryaged ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Materiales envejecidos y restauración visual",
+          "output": "Debarkedlog rotten ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Materiales envejecidos y restauración visual",
+          "output": "Debarkedlog veryrotten ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Materiales envejecidos y restauración visual",
+          "output": "ladrillo de piedra",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Materiales envejecidos y restauración visual",
+          "output": "piedra pulida",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Reciclaje de objetos de ruinas",
+          "output": "Rot",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Papel, pergaminos y linternas",
+          "output": "papel/pergamino",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Papel, pergaminos y linternas",
+          "output": "tamiz",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "estuche de pergaminos",
+          "compatMod": "—"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Planos de ruinas / Better Ruins",
+          "output": "Br schematic",
+          "compatMod": "betterruins"
+        }
+      ]
+    },
+    "blackguard": {
+      "total": 15,
+      "byMethod": {
+        "estación": 7,
+        "mesa normal": 8
+      },
+      "topCategories": [
+        {
+          "category": "Forja por estampado",
+          "count": 7
+        },
+        {
+          "category": "Forja, fuelles y herramientas de herrería",
+          "count": 5
+        },
+        {
+          "category": "Armaduras y equipo antiguo",
+          "count": 3
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Forja por estampado",
+          "output": "lingote",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Forja por estampado",
+          "output": "varilla metálica",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Forja por estampado",
+          "output": "clavos y tiras metálicas",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Forja por estampado",
+          "output": "escamas metálicas",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Forja por estampado",
+          "output": "placa metálica",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Forja por estampado",
+          "output": "cadena metálica",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Forja por estampado",
+          "output": "lamelas metálicas",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y equipo antiguo",
+          "output": "pieza de armadura",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Forja, fuelles y herramientas de herrería",
+          "output": "forja",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Forja, fuelles y herramientas de herrería",
+          "output": "fuelle",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "brickmaker": {
+      "total": 36,
+      "byMethod": {
+        "estación": 4,
+        "mesa normal": 30,
+        "compatibilidad": 2
+      },
+      "topCategories": [
+        {
+          "category": "Adobe, barro y enfoscado",
+          "count": 15
+        },
+        {
+          "category": "Ladrillos, tejas y cerámica en lote",
+          "count": 8
+        },
+        {
+          "category": "Mezclas, sales y materiales procesados",
+          "count": 3
+        },
+        {
+          "category": "Ladrillos de barro",
+          "count": 3
+        },
+        {
+          "category": "Cal, mortero y yeso",
+          "count": 3
+        },
+        {
+          "category": "Cerámica compatible con Bricklayers",
+          "count": 2
+        },
+        {
+          "category": "Cuero, bolsas y equipo blando",
+          "count": 1
+        },
+        {
+          "category": "Bolsas y contenedores especializados",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "mortero",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "yeso",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "cal",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "bolsa de tierra",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos, tejas y cerámica en lote",
+          "output": "ladrillo crudo",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos, tejas y cerámica en lote",
+          "output": "Refractorybrick raw tier1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos, tejas y cerámica en lote",
+          "output": "Refractorybrick raw tier2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos, tejas y cerámica en lote",
+          "output": "Refractorybrick raw tier3",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos, tejas y cerámica en lote",
+          "output": "teja",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos, tejas y cerámica en lote",
+          "output": "baldosa cerámica",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos, tejas y cerámica en lote",
+          "output": "Oillamp genie raw",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Adobe, barro y enfoscado",
+          "output": "adobe crudo",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos de barro",
+          "output": "ladrillo de barro",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cal, mortero y yeso",
+          "output": "cal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cal, mortero y yeso",
+          "output": "mortero",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cal, mortero y yeso",
+          "output": "yeso",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "bolsa de tierra",
+          "compatMod": "—"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Cerámica compatible con Bricklayers",
+          "output": "Clayrawtile raw",
+          "compatMod": "bricklayers"
+        }
+      ]
+    },
+    "butcher": {
+      "total": 37,
+      "byMethod": {
+        "estación": 2,
+        "mesa normal": 19,
+        "compatibilidad": 16
+      },
+      "topCategories": [
+        {
+          "category": "Ganadería y alimentación animal",
+          "count": 10
+        },
+        {
+          "category": "Herramientas de carnicería",
+          "count": 8
+        },
+        {
+          "category": "Curado y conservación de carne",
+          "count": 6
+        },
+        {
+          "category": "Curado compatible con Primitive Survival",
+          "count": 4
+        },
+        {
+          "category": "Almacenaje frío / Food Shelves",
+          "count": 3
+        },
+        {
+          "category": "Herramientas de cocina",
+          "count": 2
+        },
+        {
+          "category": "Mezclas, sales y materiales procesados",
+          "count": 1
+        },
+        {
+          "category": "Cuero, bolsas y equipo blando",
+          "count": 1
+        },
+        {
+          "category": "Bolsas y contenedores especializados",
+          "count": 1
+        },
+        {
+          "category": "Colgado y exposición de carne",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "sal",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "caja aislante",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y conservación de carne",
+          "output": "sal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y conservación de carne",
+          "output": "carne de caza",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y conservación de carne",
+          "output": "carne roja",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y conservación de carne",
+          "output": "ave",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y conservación de carne",
+          "output": "pescado",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Herramientas de cocina",
+          "output": "molino manual",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Herramientas de cocina",
+          "output": "Shelf normal east",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería y alimentación animal",
+          "output": "trampa/caja",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería y alimentación animal",
+          "output": "Stationarybasket east",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería y alimentación animal",
+          "output": "comedero",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería y alimentación animal",
+          "output": "nidal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería y alimentación animal",
+          "output": "pienso universal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "caja aislante",
+          "compatMod": "—"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Colgado y exposición de carne",
+          "output": "Meathooks east",
+          "compatMod": "aculinaryartillery"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Herramientas de carnicería",
+          "output": "Butchertable primitive north",
+          "compatMod": "butchering"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Herramientas de carnicería",
+          "output": "Butchertable simple north",
+          "compatMod": "butchering"
+        }
+      ]
+    },
+    "clockmaker": {
+      "total": 48,
+      "byMethod": {
+        "estación": 15,
+        "mesa normal": 21,
+        "compatibilidad": 12
+      },
+      "topCategories": [
+        {
+          "category": "Mecánica, piezas Jonas y metal fino",
+          "count": 15
+        },
+        {
+          "category": "Brake north",
+          "count": 3
+        },
+        {
+          "category": "Windmillrotor single north",
+          "count": 3
+        },
+        {
+          "category": "Windmillrotor wood north",
+          "count": 2
+        },
+        {
+          "category": "Woodenaxle ud",
+          "count": 2
+        },
+        {
+          "category": "Angledgears s",
+          "count": 2
+        },
+        {
+          "category": "Clutch north",
+          "count": 2
+        },
+        {
+          "category": "Spurgear s",
+          "count": 2
+        },
+        {
+          "category": "Windmillrotor double north",
+          "count": 2
+        },
+        {
+          "category": "Windmillrotor three north",
+          "count": 2
+        },
+        {
+          "category": "Windmillrotor six north",
+          "count": 2
+        },
+        {
+          "category": "Helvehammerbase north",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Mecánica, piezas Jonas y metal fino",
+          "output": "piezas metálicas",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mecánica, piezas Jonas y metal fino",
+          "output": "pieza Jonas",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Windmillrotor wood north",
+          "output": "Windmillrotor wood north",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Woodenaxle ud",
+          "output": "Woodenaxle ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Angledgears s",
+          "output": "Angledgears s",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Brake north",
+          "output": "Brake north",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Helvehammerbase north",
+          "output": "Helvehammerbase north",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Woodentoggle ns",
+          "output": "Woodentoggle ns",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Largegearsection wood",
+          "output": "Largegearsection wood",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Clutch north",
+          "output": "Clutch north",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Transmission ns",
+          "output": "Transmission ns",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Archimedesscrew straight",
+          "output": "Archimedesscrew straight",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Archimedesscrew ported north",
+          "output": "Archimedesscrew ported north",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Spurgear s",
+          "output": "Spurgear s",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Windmillrotor metal north",
+          "output": "Windmillrotor metal north",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Basereturnteleporter",
+          "output": "Basereturnteleporter",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Gear temporal",
+          "output": "Gear temporal",
+          "compatMod": "—"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Improvedaxlepassthroughfull",
+          "output": "Improvedaxlepassthroughfull",
+          "compatMod": "millwright"
+        }
+      ]
+    },
+    "farmhand": {
+      "total": 37,
+      "byMethod": {
+        "estación": 10,
+        "mesa normal": 23,
+        "compatibilidad": 4
+      },
+      "topCategories": [
+        {
+          "category": "Germinación, plantas y esquejes",
+          "count": 6
+        },
+        {
+          "category": "pescado",
+          "count": 5
+        },
+        {
+          "category": "Rot",
+          "count": 5
+        },
+        {
+          "category": "Mezclas, sales y materiales procesados",
+          "count": 4
+        },
+        {
+          "category": "carne de caza",
+          "count": 2
+        },
+        {
+          "category": "ave",
+          "count": 2
+        },
+        {
+          "category": "carne roja",
+          "count": 2
+        },
+        {
+          "category": "Potash",
+          "count": 1
+        },
+        {
+          "category": "Bonemeal",
+          "count": 1
+        },
+        {
+          "category": "polvo mineral",
+          "count": 1
+        },
+        {
+          "category": "Compost",
+          "count": 1
+        },
+        {
+          "category": "Soil low none",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "Potash",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "Bonemeal",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "polvo mineral",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "Compost",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Germinación, plantas y esquejes",
+          "output": "Seeds",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Germinación, plantas y esquejes",
+          "output": "Seeds cassava",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Germinación, plantas y esquejes",
+          "output": "Seeds licorice",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Potash",
+          "output": "Potash",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bonemeal",
+          "output": "Bonemeal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "polvo mineral",
+          "output": "polvo mineral",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Compost",
+          "output": "Compost",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "pescado",
+          "output": "pescado",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "carne de caza",
+          "output": "carne de caza",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "ave",
+          "output": "ave",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "carne roja",
+          "output": "carne roja",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Rot",
+          "output": "Rot",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Soil low none",
+          "output": "Soil low none",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Soil medium none",
+          "output": "Soil medium none",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "florist": {
+      "total": 142,
+      "byMethod": {
+        "estación": 20,
+        "mesa normal": 105,
+        "compatibilidad": 17
+      },
+      "topCategories": [
+        {
+          "category": "pintura",
+          "count": 25
+        },
+        {
+          "category": "pigmento",
+          "count": 18
+        },
+        {
+          "category": "Mezclas, sales y materiales procesados",
+          "count": 17
+        },
+        {
+          "category": "flor/planta decorativa",
+          "count": 15
+        },
+        {
+          "category": "papel/pergamino",
+          "count": 9
+        },
+        {
+          "category": "colmena",
+          "count": 4
+        },
+        {
+          "category": "Germinación, plantas y esquejes",
+          "count": 3
+        },
+        {
+          "category": "sal",
+          "count": 3
+        },
+        {
+          "category": "Broodbox",
+          "count": 2
+        },
+        {
+          "category": "Beenade closed",
+          "count": 1
+        },
+        {
+          "category": "Poultice linen honey sulfur",
+          "count": 1
+        },
+        {
+          "category": "Poultice linen horsetail",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "pigmento",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Germinación, plantas y esquejes",
+          "output": "flor/planta decorativa",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Germinación, plantas y esquejes",
+          "output": "Leaves placed",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Germinación, plantas y esquejes",
+          "output": "Leavesbranchy placed",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Beenade closed",
+          "output": "Beenade closed",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "flor/planta decorativa",
+          "output": "flor/planta decorativa",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Poultice linen honey sulfur",
+          "output": "Poultice linen honey sulfur",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Poultice linen horsetail",
+          "output": "Poultice linen horsetail",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "pintura",
+          "output": "pintura",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "pigmento",
+          "output": "pigmento",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "sal",
+          "output": "sal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Clayplanter amber",
+          "output": "Clayplanter amber",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Clayplanter ashforest",
+          "output": "Clayplanter ashforest",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Clayplanter copper",
+          "output": "Clayplanter copper",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Clayplanter cthonic",
+          "output": "Clayplanter cthonic",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Clayplanter earthern",
+          "output": "Clayplanter earthern",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Clayplanter loam",
+          "output": "Clayplanter loam",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Clayplanter ochre",
+          "output": "Clayplanter ochre",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "forester": {
+      "total": 91,
+      "byMethod": {
+        "estación": 55,
+        "mesa normal": 32,
+        "compatibilidad": 4
+      },
+      "topCategories": [
+        {
+          "category": "Talla y carpintería de madera",
+          "count": 53
+        },
+        {
+          "category": "Plank",
+          "count": 4
+        },
+        {
+          "category": "Germinación, plantas y esquejes",
+          "count": 2
+        },
+        {
+          "category": "Chest east",
+          "count": 2
+        },
+        {
+          "category": "Agedfirewood",
+          "count": 2
+        },
+        {
+          "category": "Stick",
+          "count": 2
+        },
+        {
+          "category": "Firewood",
+          "count": 2
+        },
+        {
+          "category": "Handle",
+          "count": 2
+        },
+        {
+          "category": "Carpentedhandle",
+          "count": 2
+        },
+        {
+          "category": "Palisadewall four lower cornerin west",
+          "count": 1
+        },
+        {
+          "category": "Palisadewall three wall west",
+          "count": 1
+        },
+        {
+          "category": "Palisadewall four wall west",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Germinación, plantas y esquejes",
+          "output": "retoño de árbol",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Log placed aged ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Firewood",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Agedfirewood",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Stick",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Plank",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Logquad placed ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Logquad barkedcorner north",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Logquad debarked ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Logquad debarkedcorner north",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Debarkedlog ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Supportbeam",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Planks ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Plankslab down free",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Plankstairs up north free",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Debarkedlog veryaged ud",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Supportbeam veryaged",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Talla y carpintería de madera",
+          "output": "Debarkedlog rotten ud",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "hunter": {
+      "total": 38,
+      "byMethod": {
+        "estación": 6,
+        "mesa normal": 18,
+        "compatibilidad": 14
+      },
+      "topCategories": [
+        {
+          "category": "piel",
+          "count": 16
+        },
+        {
+          "category": "Cuero, bolsas y equipo blando",
+          "count": 6
+        },
+        {
+          "category": "Butcherybag standard",
+          "count": 4
+        },
+        {
+          "category": "Arrow bone",
+          "count": 2
+        },
+        {
+          "category": "cuero",
+          "count": 2
+        },
+        {
+          "category": "Arrow",
+          "count": 1
+        },
+        {
+          "category": "Butcherybag primitive",
+          "count": 1
+        },
+        {
+          "category": "Arrow barbed",
+          "count": 1
+        },
+        {
+          "category": "Arrow blunt",
+          "count": 1
+        },
+        {
+          "category": "Arrow bodkin",
+          "count": 1
+        },
+        {
+          "category": "carne de caza",
+          "count": 1
+        },
+        {
+          "category": "carne roja",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "piel",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Arrow",
+          "output": "Arrow",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Arrow bone",
+          "output": "Arrow bone",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "piel",
+          "output": "piel",
+          "compatMod": "—"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Butcherybag standard",
+          "output": "Butcherybag standard",
+          "compatMod": "butchering"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "cuero",
+          "output": "cuero",
+          "compatMod": "butchering"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Butcherybag primitive",
+          "output": "Butcherybag primitive",
+          "compatMod": "butchering"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Arrow barbed",
+          "output": "Arrow barbed",
+          "compatMod": "morearrows"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Arrow blunt",
+          "output": "Arrow blunt",
+          "compatMod": "morearrows"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Arrow bodkin",
+          "output": "Arrow bodkin",
+          "compatMod": "morearrows"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "carne de caza",
+          "output": "carne de caza",
+          "compatMod": "primitivesurvival"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "carne roja",
+          "output": "carne roja",
+          "compatMod": "primitivesurvival"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "pescado",
+          "output": "pescado",
+          "compatMod": "primitivesurvival"
+        }
+      ]
+    },
+    "malefactor": {
+      "total": 9,
+      "byMethod": {
+        "mesa normal": 9
+      },
+      "topCategories": [
+        {
+          "category": "Torchholder aged empty north",
+          "count": 2
+        },
+        {
+          "category": "Scrapweaponkit",
+          "count": 1
+        },
+        {
+          "category": "Metal scraps",
+          "count": 1
+        },
+        {
+          "category": "Axe scrap scrap",
+          "count": 1
+        },
+        {
+          "category": "Club scrap scrap",
+          "count": 1
+        },
+        {
+          "category": "Club scrapmace scrap",
+          "count": 1
+        },
+        {
+          "category": "Blade scrap scrap",
+          "count": 1
+        },
+        {
+          "category": "Spear scrap scrap",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Scrapweaponkit",
+          "output": "Scrapweaponkit",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Torchholder aged empty north",
+          "output": "Torchholder aged empty north",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Metal scraps",
+          "output": "Metal scraps",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Axe scrap scrap",
+          "output": "Axe scrap scrap",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Club scrap scrap",
+          "output": "Club scrap scrap",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Club scrapmace scrap",
+          "output": "Club scrapmace scrap",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Blade scrap scrap",
+          "output": "Blade scrap scrap",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Spear scrap scrap",
+          "output": "Spear scrap scrap",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "messenger": {
+      "total": 57,
+      "byMethod": {
+        "estación": 26,
+        "mesa normal": 29,
+        "compatibilidad": 2
+      },
+      "topCategories": [
+        {
+          "category": "Bolsas y contenedores especializados",
+          "count": 15
+        },
+        {
+          "category": "Cuero, bolsas y equipo blando",
+          "count": 14
+        },
+        {
+          "category": "Caminos, mapas e infraestructura",
+          "count": 12
+        },
+        {
+          "category": "Faroles e iluminación",
+          "count": 8
+        },
+        {
+          "category": "Caminos y carreteras",
+          "count": 6
+        },
+        {
+          "category": "Embarcaciones y muelles / Primitive Survival",
+          "count": 2
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Caminos, mapas e infraestructura",
+          "output": "carretera de asfalto rápida",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Caminos, mapas e infraestructura",
+          "output": "camino de madera",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Caminos, mapas e infraestructura",
+          "output": "camino de piedra",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "mochila",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "bolsa de mensajero",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "estuche de pergaminos",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "caja aislante",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "bolsa de tierra",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "Basket normal reed",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "papiro",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuero, bolsas y equipo blando",
+          "output": "Linensack",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "bolsa de mensajero",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "estuche de pergaminos",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "caja aislante",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "bolsa de tierra",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "Basket normal reed",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "papiro",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y contenedores especializados",
+          "output": "mochila",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "quarrier": {
+      "total": 49,
+      "byMethod": {
+        "estación": 24,
+        "mesa normal": 17,
+        "compatibilidad": 8
+      },
+      "topCategories": [
+        {
+          "category": "Corte y transformación de piedra",
+          "count": 24
+        },
+        {
+          "category": "Ensamblaje de piedra",
+          "count": 7
+        },
+        {
+          "category": "Piedra envejecida y decorativa",
+          "count": 7
+        },
+        {
+          "category": "Piezas de piedra / Bricklayers",
+          "count": 7
+        },
+        {
+          "category": "Procesado de piedra",
+          "count": 3
+        },
+        {
+          "category": "Cantería avanzada / Stone Quarry",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "Stone",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "grava",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "arena",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "Cobbleskull",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "adoquín",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "Rockpolished",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "piedra pulida",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "Tile 2x2 plain travertine",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "Tileslab 2x2 plain travertine down free",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "ladrillo de piedra",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "piedra seca",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Corte y transformación de piedra",
+          "output": "roca",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ensamblaje de piedra",
+          "output": "roca",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ensamblaje de piedra",
+          "output": "ladrillo de piedra",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ensamblaje de piedra",
+          "output": "Tile 2x2 plain travertine",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ensamblaje de piedra",
+          "output": "Tileslab 2x2 plain travertine down free",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de piedra",
+          "output": "Stone",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de piedra",
+          "output": "grava",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "spelunker": {
+      "total": 19,
+      "byMethod": {
+        "estación": 7,
+        "mesa normal": 12
+      },
+      "topCategories": [
+        {
+          "category": "Mezclas, sales y materiales procesados",
+          "count": 7
+        },
+        {
+          "category": "Bombas y explosivos",
+          "count": 5
+        },
+        {
+          "category": "Procesado mineral y sales",
+          "count": 4
+        },
+        {
+          "category": "Paydirt carbonáceo",
+          "count": 1
+        },
+        {
+          "category": "Paydirt cristalino",
+          "count": 1
+        },
+        {
+          "category": "Paydirt metálico",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "tierra para bateo",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "cal",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "salitre",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "sal",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mezclas, sales y materiales procesados",
+          "output": "polvo mineral",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bombas y explosivos",
+          "output": "bomba",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Paydirt carbonáceo",
+          "output": "tierra para bateo",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Paydirt cristalino",
+          "output": "tierra para bateo",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Paydirt metálico",
+          "output": "tierra para bateo",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado mineral y sales",
+          "output": "cal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado mineral y sales",
+          "output": "sal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado mineral y sales",
+          "output": "polvo mineral",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado mineral y sales",
+          "output": "salitre",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "tailor": {
+      "total": 5,
+      "byMethod": {
+        "mesa normal": 5
+      },
+      "topCategories": [
+        {
+          "category": "Fibras, cuerda y textiles",
+          "count": 5
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Fibras, cuerda y textiles",
+          "output": "papiro",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Fibras, cuerda y textiles",
+          "output": "fibra de lino",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Fibras, cuerda y textiles",
+          "output": "cordel de lino",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Fibras, cuerda y textiles",
+          "output": "cuerda",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "vintner": {
+      "total": 20,
+      "byMethod": {
+        "estación": 2,
+        "mesa normal": 7,
+        "compatibilidad": 11
+      },
+      "topCategories": [
+        {
+          "category": "Barriles, cubos y destilación",
+          "count": 5
+        },
+        {
+          "category": "Cristalería de alquimia",
+          "count": 4
+        },
+        {
+          "category": "Almacenaje de líquidos / Food Shelves",
+          "count": 4
+        },
+        {
+          "category": "Botellas y corchos / Culinary Artillery",
+          "count": 3
+        },
+        {
+          "category": "Germinación, plantas y esquejes",
+          "count": 2
+        },
+        {
+          "category": "Esquejes y frutales",
+          "count": 1
+        },
+        {
+          "category": "Vidrio y cuarzo",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "estación",
+          "category": "Germinación, plantas y esquejes",
+          "output": "esqueje de frutal",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Germinación, plantas y esquejes",
+          "output": "esqueje de arbusto frutal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Esquejes y frutales",
+          "output": "esqueje de arbusto frutal",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Vidrio y cuarzo",
+          "output": "Clearquartz",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Barriles, cubos y destilación",
+          "output": "barril",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Barriles, cubos y destilación",
+          "output": "cubo de madera",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Barriles, cubos y destilación",
+          "output": "prensa de fruta",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Barriles, cubos y destilación",
+          "output": "caldera vertical",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Barriles, cubos y destilación",
+          "output": "condensador",
+          "compatMod": "—"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Botellas y corchos / Culinary Artillery",
+          "output": "Bottlerack aged aged north",
+          "compatMod": "aculinaryartillery"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Botellas y corchos / Culinary Artillery",
+          "output": "Bottle glass fired",
+          "compatMod": "aculinaryartillery"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Botellas y corchos / Culinary Artillery",
+          "output": "Cork generic",
+          "compatMod": "aculinaryartillery"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Cristalería de alquimia",
+          "output": "Herbrack",
+          "compatMod": "alchemy"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Cristalería de alquimia",
+          "output": "Potionflask normal plain",
+          "compatMod": "alchemy"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Cristalería de alquimia",
+          "output": "Potionflask round plain",
+          "compatMod": "alchemy"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Cristalería de alquimia",
+          "output": "Potionflask tube plain",
+          "compatMod": "alchemy"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Almacenaje de líquidos / Food Shelves",
+          "output": "Tunrack normal north",
+          "compatMod": "foodshelves"
+        },
+        {
+          "method": "compatibilidad",
+          "category": "Almacenaje de líquidos / Food Shelves",
+          "output": "Tun normal",
+          "compatMod": "foodshelves"
+        }
+      ]
+    }
+  },
+  "globalTotals": {
+    "totalRecipes": 621,
+    "categoryCount": 181
+  }
+}

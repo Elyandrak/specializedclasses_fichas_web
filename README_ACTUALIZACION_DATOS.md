@@ -1,4 +1,4 @@
-# Cómo actualizar datos en la versión 2.4.1
+# Cómo actualizar datos en la versión 2.4.2
 
 La web nueva no necesita tocar `index.html` para cambiar stats de rasgos.
 
@@ -75,3 +75,30 @@ La web dinámica lo mostrará en `clase.html` y `mecanicas.html`.
 
 ## Nota de versiones
 La versión web/documentación no es la versión del mod. El selector de la web cambia la versión del mod analizada.
+
+
+## Añadir o revisar Specialized Classes 2.2.2
+
+Los datos de esta versión están en:
+
+```text
+data/mod_versions/2.2.2/classes_ES.js
+data/mod_versions/2.2.2/traits_ES.js
+data/mod_versions/2.2.2/categories_ES.js
+data/mod_versions/2.2.2/recipes_summary_ES.js
+data/mod_versions/2.2.2/usage_ES.js
+```
+
+El selector de versión se alimenta desde `data/mod_versions/catalog_ES.js`.
+
+
+## Añadido en 2.4.2: Specialized Classes 2.2.2
+
+La versión histórica del mod `2.2.2` queda añadida en:
+
+```text
+data/mod_versions/2.2.2/
+```
+
+Para seleccionarla en la web, usa el desplegable **Versión del mod analizada**.
+

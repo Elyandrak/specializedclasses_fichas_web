@@ -145,6 +145,7 @@
   function renderWebHistoryPage(){
     const target = $('#webHistoryContent'); if(!target) return;
     const entries = [
+      {v:'2.4.2', title:'Versión del mod 2.2.2 añadida', items:['Se añade Specialized Classes 2.2.2 al selector de versión del mod.', 'Stats, rasgos y recetas de 2.2.2 salen de data/mod_versions/2.2.2/.', 'Se mantiene 3.0.0-rc.1 como versión analizada por defecto y 2.2.2 como histórica/comparable.']},
       {v:'2.4.1', title:'Ficha dinámica con aspecto 2.1.2', items:['Las fichas dinámicas vuelven al diseño visual de la 2.1.2: retrato grande, menú lateral, bonus y malus en dos tarjetas.', 'El bloque Resumen humano se sustituye por Herramientas especiales, usando datos de usage_ES.js.', 'La pantalla principal deja de mostrar el bloque de cambios para no confundirlo con la versión del mod.']},
       {v:'2.4.0', title:'Uso real por clase', items:['Se añadió usage_ES.js con herramientas, estaciones y pasos de uso por clase.', 'Se creó Objetos y uso por clase.', 'Se corrigió el Archivista: palanca/crowbar + clic derecho para clutter/vasijas compatibles.']},
       {v:'2.3.0', title:'Datos separados y rasgos mantenibles', items:['Clases, rasgos, recetas y categorías se separaron en archivos dinámicos.', 'Se añadió selector de versión del mod.', 'Se creó Rasgos y efectos.']},

@@ -1,0 +1,685 @@
+{
+  "schema": "specializedclasses.usage_ES.v1",
+  "packageVersion": "2.4.2",
+  "modVersion": "2.2.2",
+  "note_es": "Guía humana de uso por clase adaptada a la versión 2.2.2. La capa de herramientas se reutiliza cuando la mecánica existe en esta versión; los stats y recetas salen del ZIP 2.2.2.",
+  "source_checks_es": [
+    "Datos añadidos desde specializedclasses_2.2.2.zip: config/characterclasses.json, config/traits.json, recipes y compatibility/recipes.",
+    "Esta versión del mod declara 15 clases especializadas; Commoner/Plebeyo aparece en lang, pero no como clase dentro de characterclasses.json.",
+    "El selector de la web cambia stats/rasgos/recetas según la versión del mod elegida."
+  ],
+  "classUsage": {
+    "archivist": {
+      "summary_es": "Especialista en ruinas, objetos decorativos antiguos, libros, papel y estabilidad temporal. Su mecánica importante no es romper: es recuperar ciertos objetos intactos.",
+      "howToUse_es": [
+        "Lleva una palanca / crowbar en la mano.",
+        "Haz clic derecho sobre clutter de ruinas, estanterías clutter/lore, banners o vasijas agrietadas compatibles.",
+        "Si la interacción aplica, el objeto se recoge/repara en vez de romperse como botín normal.",
+        "No uses pico/hacha para esta mecánica. El mod verificado apunta a crowbar/palanca, no a cincel y martillo."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Palanca / Crowbar",
+          "type_es": "herramienta de interacción",
+          "use_es": "Clic derecho para recoger/reparar clutter y vasijas agrietadas compatibles.",
+          "source_es": "traits/lang + DLL"
+        },
+        {
+          "name_es": "Objetos de ruinas / clutter",
+          "type_es": "objetivo",
+          "use_es": "Muebles, libros, banners, lámparas y decoración recuperable de ruinas.",
+          "source_es": "clutter-pickup.json + recetas"
+        },
+        {
+          "name_es": "Vasijas agrietadas",
+          "type_es": "objetivo especial",
+          "use_es": "Puede recogerlas intactas con palanca; si las rompes como siempre, el rasgo Arqueólogo también mejora el contenido.",
+          "source_es": "canPickupClutter + vesselContentsDropRate"
+        },
+        {
+          "name_es": "Pergamino, papel, tamiz y planos",
+          "type_es": "recetas/lore",
+          "use_es": "Base de recetas de papel, pergaminos y, con Better Ruins, copia de blueprints usando pergamino y tamiz.",
+          "source_es": "mod page + recipes"
+        }
+      ],
+      "stations_es": [
+        "Mesa de dibujo / Drafting Table para algunas recetas de clutter"
+      ],
+      "mistakes_es": [
+        "Confundir la mecánica con cincel+martillo. En el mod 3.0.0-rc.1 la cadena interna y el DLL apuntan a crowbar/palanca.",
+        "Romper la vasija da loot; recoger con palanca busca conservar/reparar el objeto."
+      ]
+    },
+    "blackguard": {
+      "summary_es": "Forjador-combatiente. No solo pega más: convierte metal y equipo dañado en ventaja real para el grupo.",
+      "howToUse_es": [
+        "Fabrica kits de reparación de herramientas/armas y armaduras/escudos.",
+        "Arrastra el kit sobre el objeto dañado para restaurar hasta el 75% de su durabilidad máxima, limitado al máximo.",
+        "Usa el bloque de estampado de latón para producir piezas metálicas en lote.",
+        "Aprovecha Heatproof: puede manipular objetos calientes sin tenazas."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Tool repair kit",
+          "type_es": "objeto exclusivo",
+          "use_es": "Se arrastra sobre herramienta o arma dañada para repararla.",
+          "source_es": "itemdesc-toolrepairkit"
+        },
+        {
+          "name_es": "Armor repair kit",
+          "type_es": "objeto exclusivo",
+          "use_es": "Se arrastra sobre armadura o escudo dañado para repararlo.",
+          "source_es": "itemdesc-armorrepairkit"
+        },
+        {
+          "name_es": "Brass swage block",
+          "type_es": "estación",
+          "use_es": "Estampa metal en lote: varillas, placas, cadenas, escamas, lamelas, puntas de flecha, clavos y tiras.",
+          "source_es": "swageblock.json"
+        },
+        {
+          "name_es": "Espada corta y escudo de Guardia Negra",
+          "type_es": "equipo exclusivo",
+          "use_es": "Recetas exclusivas asociadas al rasgo Merciless.",
+          "source_es": "mod page"
+        }
+      ],
+      "stations_es": [
+        "Brass swage block / bloque de estampado de latón",
+        "Forjas más baratas"
+      ],
+      "mistakes_es": [
+        "Verlo solo como tanque. Su valor de servidor está en reparación, metal y autosuficiencia militar."
+      ]
+    },
+    "brickmaker": {
+      "summary_es": "Constructor de tierra, arcilla, cerámica, mortero y piezas de obra. Sirve para producir materiales de construcción a volumen.",
+      "howToUse_es": [
+        "Usa moldes cerámicos para recetas masivas de ladrillos y tejas crudas.",
+        "Usa la cuba de mezclas para mortero, yeso, cal y pastas.",
+        "Produce vajilla/recipientes de porcelana cuando tengas la cadena de materiales necesaria.",
+        "Aprovecha la mejora de arcilla/tierra; no es clase de minería profunda."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Moldes cerámicos",
+          "type_es": "herramienta de receta",
+          "use_es": "Permiten recetas de ladrillos, tejas y piezas cerámicas en cantidad.",
+          "source_es": "recipes/grid/brickmaker"
+        },
+        {
+          "name_es": "Mortero y mano",
+          "type_es": "herramienta/objeto del mod",
+          "use_es": "Aparece en recetas de mezclas y procesado de materiales.",
+          "source_es": "recipes"
+        },
+        {
+          "name_es": "Porcelain crock / bowl / vessel",
+          "type_es": "recipientes mejorados",
+          "use_es": "Crock de 8 porciones, bowl de 2 porciones/litros y vessel de 16 slots.",
+          "source_es": "blockdesc-porcelain"
+        },
+        {
+          "name_es": "Compounding vat",
+          "type_es": "estación",
+          "use_es": "Mezcla materiales de construcción: mortero, yeso, cal y similares.",
+          "source_es": "workstation compoundingvat"
+        }
+      ],
+      "stations_es": [
+        "Cuba de mezclas / Compounding Vat"
+      ],
+      "mistakes_es": [
+        "Llamarlo solo 'alfarero' se queda corto: también es clase de obra civil y materiales a granel."
+      ]
+    },
+    "butcher": {
+      "summary_es": "Especialista en carne, cocina, conservación, alimentación animal y aprovechamiento de cadáveres.",
+      "howToUse_es": [
+        "Usa cuchillo y recetas de carnicería para sacar más rendimiento de animales y criaturas.",
+        "Usa sealant en crocks para conservar comidas de forma barata.",
+        "Arrastra ice pack sobre perecederos o derretibles para recuperar frescura/tiempo estable.",
+        "Usa la cuba de mezclas para sal y componentes de preservación."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Sealant",
+          "type_es": "objeto exclusivo",
+          "use_es": "Sellador barato para crocks; ayuda a que las comidas duren más.",
+          "source_es": "itemdesc-sealant"
+        },
+        {
+          "name_es": "Ice Pack",
+          "type_es": "objeto exclusivo",
+          "use_es": "Se arrastra sobre perecederos o derretibles para restaurar hasta 75% de tiempo estable/frescura original.",
+          "source_es": "itemdesc-icepack"
+        },
+        {
+          "name_es": "Ceramic cauldron",
+          "type_es": "recipiente de cocina grande",
+          "use_es": "Hasta 64 ingredientes y hasta 64 comidas de salida.",
+          "source_es": "blockdesc-ceramiccauldron"
+        },
+        {
+          "name_es": "Universal animal feeds",
+          "type_es": "alimentación animal",
+          "use_es": "Piensos universales para carnívoros/herbívoros.",
+          "source_es": "recipes/itemtypes"
+        }
+      ],
+      "stations_es": [
+        "Cuba de mezclas / Compounding Vat",
+        "Quern / molino manual",
+        "Estaciones de carnicería si está Butchering instalado"
+      ],
+      "mistakes_es": [
+        "No es solo cocinar: su valor fuerte está en conservación y rendimiento de cadáveres."
+      ]
+    },
+    "clockmaker": {
+      "summary_es": "Ingeniero del mod: mecánica, piezas Jonas, translocadores, tecnología y desmontaje.",
+      "howToUse_es": [
+        "Construye y usa la Tinkerer's Workstation para fabricar metal parts y Jonas parts.",
+        "Repara base return teleporters fritos con cualquier pieza Jonas.",
+        "Puede convertir rusty gears en temporal gears friendo un base return teleporter.",
+        "Con compatibilidad Millwright, varias recetas usan wrench / llave inglesa como herramienta."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Tinkerer's workstation",
+          "type_es": "estación principal",
+          "use_es": "Mesa del relojero para ensamblar mecanismos delicados, metal parts y Jonas parts.",
+          "source_es": "tinkerersworkstation.json + blockdesc"
+        },
+        {
+          "name_es": "Wrench / llave inglesa",
+          "type_es": "herramienta de receta",
+          "use_es": "Aparece en recetas de compatibilidad Millwright para componentes mecánicos reforzados.",
+          "source_es": "compatibility/millwright"
+        },
+        {
+          "name_es": "Jonas parts",
+          "type_es": "componentes tecnológicos",
+          "use_es": "Se fabrican/usan en la estación del relojero y sirven para reparar teleporters fritos.",
+          "source_es": "mod page + workstation"
+        },
+        {
+          "name_es": "Tuning spear",
+          "type_es": "objeto exclusivo",
+          "use_es": "Receta exclusiva del rasgo Tinkerer; asociada a domar/hackear locusts.",
+          "source_es": "traitdesc-tinkerer + characterclasses technical"
+        }
+      ],
+      "stations_es": [
+        "Tinkerer's Workstation",
+        "Recetas mecánicas de Millwright con wrench si el mod está instalado"
+      ],
+      "mistakes_es": [
+        "La 'llave' no sustituye a toda la clase: en el mod base la estación clave es la Tinkerer's Workstation; la wrench aparece claramente en compatibilidad Millwright."
+      ]
+    },
+    "farmhand": {
+      "summary_es": "Agricultura, fertilizante, semillas, cuerda y pesca. Convierte cultivo y espera en producción sostenida.",
+      "howToUse_es": [
+        "Usa la cuba de mezclas para componentes de fertilizante.",
+        "Usa la mesa de germinación para convertir productos/semillas/cortes en nuevas plantas según receta.",
+        "Usa el raft de bambú del pescador para moverte por agua más rápido.",
+        "Aprovecha +100% semillas/cultivos: una parcela silvestre puede arrancar una explotación grande."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Sprouting table",
+          "type_es": "estación",
+          "use_es": "Mesa de germinación para semillas, flores, arbustos y esquejes según receta.",
+          "source_es": "sproutingtable.json"
+        },
+        {
+          "name_es": "Compounding vat",
+          "type_es": "estación",
+          "use_es": "Fertilizantes, compostajes y componentes agrícolas.",
+          "source_es": "compoundingvat.json"
+        },
+        {
+          "name_es": "Angler's bamboo raft",
+          "type_es": "vehículo exclusivo",
+          "use_es": "Balsa de bambú ensamblada por experto; se mueve a 1.5x en agua.",
+          "source_es": "itemdesc-boat-raft-bamboo-angler"
+        },
+        {
+          "name_es": "Spindle",
+          "type_es": "herramienta de receta",
+          "use_es": "Usado en recetas de cuerda/fibra, especialmente con compatibilidad Tailor's Delight.",
+          "source_es": "recipes/farmhand"
+        }
+      ],
+      "stations_es": [
+        "Cuba de mezclas",
+        "Mesa de germinación"
+      ],
+      "mistakes_es": [
+        "Pensar que solo mejora agricultura pasiva. Tiene cadena de fertilización, pesca y movilidad acuática."
+      ]
+    },
+    "florist": {
+      "summary_es": "Flores, apicultura, medicina, tintes, pigmentos y decoración colorida.",
+      "howToUse_es": [
+        "Recolecta hierba para probabilidades extra de horsetail y cattails.",
+        "Usa la cuba de mezclas para pigmentos y bases de color.",
+        "Usa la mesa de germinación para flores y follaje.",
+        "Convierte miel/flores/telas en medicina y decoración."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Pigmentos",
+          "type_es": "materiales del mod",
+          "use_es": "Base para tintes, decoración, cuadros, papeles pintados y recipientes decorados.",
+          "source_es": "recipes/florist"
+        },
+        {
+          "name_es": "Mortar and pestle",
+          "type_es": "herramienta",
+          "use_es": "Herramienta simple para procesar materiales del oficio.",
+          "source_es": "itemdesc-mortarandpestle"
+        },
+        {
+          "name_es": "Compounding vat",
+          "type_es": "estación",
+          "use_es": "Mezcla pigmentos/colorantes y recetas afines.",
+          "source_es": "mod page + workstation"
+        },
+        {
+          "name_es": "Sprouting table",
+          "type_es": "estación",
+          "use_es": "Propaga flores y follaje.",
+          "source_es": "mod page + workstation"
+        }
+      ],
+      "stations_es": [
+        "Cuba de mezclas",
+        "Mesa de germinación"
+      ],
+      "mistakes_es": [
+        "No es solo decorativa: también aporta medicina y soporte a apicultura."
+      ]
+    },
+    "forester": {
+      "summary_es": "Madera, carpintería, combustible, almacenamiento y reforestación.",
+      "howToUse_es": [
+        "Usa la mesa de tallado de madera para convertir troncos en bloques, piezas y carpintería.",
+        "Produce combustible especializado: briquettes y treated firewood.",
+        "Aprovecha el aumento de semillas/saplings para replantar de forma sostenible.",
+        "Usa saw/knife/crowbar según recetas de madera y reciclaje."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Woodcarving table",
+          "type_es": "estación principal",
+          "use_es": "Mesa de carpintero para dar forma a logs, bloques de madera y piezas de construcción.",
+          "source_es": "woodcarvingtable.json"
+        },
+        {
+          "name_es": "Briquette",
+          "type_es": "combustible",
+          "use_es": "Combustible compacto que arde caliente y estable.",
+          "source_es": "itemdesc-briquette"
+        },
+        {
+          "name_es": "Treated firewood",
+          "type_es": "combustible especial",
+          "use_es": "Arde muy lentamente; útil para mantener campamento iluminado/caliente, no para procesado/cocina.",
+          "source_es": "itemdesc-firewood-treated"
+        },
+        {
+          "name_es": "Saplings/semillas de árbol",
+          "type_es": "recurso clave",
+          "use_es": "+300% rendimiento de semillas para replantar lo talado.",
+          "source_es": "trait Nurseryworker"
+        }
+      ],
+      "stations_es": [
+        "Mesa de tallado de madera / Woodcarving Table"
+      ],
+      "mistakes_es": [
+        "Reducirlo a cortar árboles. Su valor real es madera procesada + combustible + sostenibilidad."
+      ]
+    },
+    "hunter": {
+      "summary_es": "Combate a distancia, cuero, flechas y procesamiento de pieles.",
+      "howToUse_es": [
+        "Usa cuero/pieles en la leatherworking station para scraped hides y tasas dobles desde soaked hides.",
+        "Usa cañas/reeds como fletching para flechas cuando la receta lo permite.",
+        "Carva hueso en bone arrows y aprovecha recetas de flechas/arcos exclusivos.",
+        "Caza desde distancia: su punto fuerte no es tankear sino matar y procesar."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Leatherworking station",
+          "type_es": "estación principal",
+          "use_es": "Combina raspado, estirado y ensamblaje de cuero.",
+          "source_es": "leatherworkingstation.json"
+        },
+        {
+          "name_es": "Bows and arrows exclusivos",
+          "type_es": "equipo exclusivo",
+          "use_es": "Recetas exclusivas del rasgo Bowyer.",
+          "source_es": "mod page"
+        },
+        {
+          "name_es": "Bone arrows",
+          "type_es": "munición",
+          "use_es": "Flechas de hueso; puede usar reeds como emplumado/fletching en varias recetas.",
+          "source_es": "recipes/hunter"
+        },
+        {
+          "name_es": "Butchering bags",
+          "type_es": "compatibilidad",
+          "use_es": "Con Butchering, bolsas de carnicería más baratas.",
+          "source_es": "compatibility/butchering"
+        }
+      ],
+      "stations_es": [
+        "Leatherworking Station"
+      ],
+      "mistakes_es": [
+        "Confundirlo con Carnicero. El cazador gana en alcance, cuero y flechas; el carnicero en carne/conservación."
+      ]
+    },
+    "malefactor": {
+      "summary_es": "Ruinero, comerciante turbio y reciclador de chatarra. Especialista en rusty gears, vasijas y trato con comerciantes.",
+      "howToUse_es": [
+        "Rompe/saquea vasijas y fuentes de rusty gears para aprovechar sus multiplicadores.",
+        "Convierte rusty gears en metal scraps y kits/armas de chatarra.",
+        "Habla con traders: el rasgo Smuggler le permite acceder a inventario extra.",
+        "Juega a evitar aggro: tiene rango de agresión de criaturas muy reducido."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Rusty gears",
+          "type_es": "recurso clave",
+          "use_es": "Mayor rendimiento y base de recetas de scrap/metal scraps.",
+          "source_es": "traits + recipes/malefactor"
+        },
+        {
+          "name_es": "Scrap weapon kits",
+          "type_es": "recetas",
+          "use_es": "Kits/armas de chatarra asociados a su rama de salvage.",
+          "source_es": "recipes/malefactor"
+        },
+        {
+          "name_es": "Trader extra inventory",
+          "type_es": "mecánica de comercio",
+          "use_es": "Acceso a inventario extra mediante Smuggler.",
+          "source_es": "mod page"
+        },
+        {
+          "name_es": "Sling",
+          "type_es": "arma desbloqueada",
+          "use_es": "Receta craftable exclusiva compartida con Improviser.",
+          "source_es": "trait Improviser"
+        }
+      ],
+      "stations_es": [
+        "Recetas de mesa normal; comercio con traders"
+      ],
+      "mistakes_es": [
+        "No es solo ladrón: es el especialista económico de ruinas y chatarra."
+      ]
+    },
+    "messenger": {
+      "summary_es": "Infraestructura, caminos, bolsas, transporte ligero e iluminación.",
+      "howToUse_es": [
+        "Usa cartographer's desk para caminos, carreteras y el asphalt road 1.5x.",
+        "Usa leatherworking station para bolsas especializadas.",
+        "Coloca caminos para activar su bonus de velocidad sobre path blocks.",
+        "Usa scroll case/portable crate/vessel frame según el tipo de carga."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Cartographer's desk",
+          "type_es": "estación principal",
+          "use_es": "Mesa para planificar infraestructura, caminos y carreteras.",
+          "source_es": "cartographersdesk.json"
+        },
+        {
+          "name_es": "Asphalt road 1.5x",
+          "type_es": "bloque exclusivo",
+          "use_es": "Carretera rápida; sinergia directa con Swift/path speed.",
+          "source_es": "mod page + recipes"
+        },
+        {
+          "name_es": "Scroll case",
+          "type_es": "mochila especial",
+          "use_es": "Muchos slots con stacks pequeños; útil para herramientas, lore y clutter.",
+          "source_es": "itemdesc-scrollcase"
+        },
+        {
+          "name_es": "Portable crate",
+          "type_es": "mochila especial",
+          "use_es": "28 stacks de un solo tipo de item; perfecta para viajes de recolección concretos.",
+          "source_es": "itemdesc-portablecrate"
+        },
+        {
+          "name_es": "Vessel frame",
+          "type_es": "mochila alimentaria",
+          "use_es": "Reduce mucho el deterioro de comida; solo 4 slots.",
+          "source_es": "itemdesc-vesselframe"
+        }
+      ],
+      "stations_es": [
+        "Cartographer's Desk",
+        "Leatherworking Station"
+      ],
+      "mistakes_es": [
+        "Verlo como 'corre rápido'. Su valor real depende de construir red de caminos y logística."
+      ]
+    },
+    "quarrier": {
+      "summary_es": "Piedra, minería de bloque, cantería y megaconstrucción subterránea.",
+      "howToUse_es": [
+        "Usa stonecutting bench para transformar roca en bloques, ladrillos, grava y arena.",
+        "Aprovecha Tunneler para picar piedra/mineral rápido y ahorrar herramienta.",
+        "Con Stone Quarry, al martillear un splitting plug avanza toda la red conectada.",
+        "Úsalo para obra grande de piedra; no para maximizar mineral puro."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Stonecutting bench",
+          "type_es": "estación principal",
+          "use_es": "Banco de cantería para convertir roca bruta en bloques y materiales de construcción.",
+          "source_es": "stonecuttingbench.json"
+        },
+        {
+          "name_es": "Splitting plugs",
+          "type_es": "compatibilidad Stone Quarry",
+          "use_es": "El rasgo Thumper hace avanzar todos los plugs conectados al martillear uno.",
+          "source_es": "mod page"
+        },
+        {
+          "name_es": "Hammer/chisel/pickaxe",
+          "type_es": "herramientas clave",
+          "use_es": "Reciben ahorro de durabilidad y/o velocidad con rasgos de cantero.",
+          "source_es": "traits"
+        },
+        {
+          "name_es": "Rock → stone/gravel/sand",
+          "type_es": "receta de conversión",
+          "use_es": "Despiece de roca para producir materiales de construcción.",
+          "source_es": "workstation stonecuttingbench"
+        }
+      ],
+      "stations_es": [
+        "Stonecutting Bench"
+      ],
+      "mistakes_es": [
+        "No es el mejor si solo buscas mineral; es el rey de piedra, túneles y construcción."
+      ]
+    },
+    "spelunker": {
+      "summary_es": "Mineral, prospección, panning/paydirt, bombas y exploración de cuevas.",
+      "howToUse_es": [
+        "Usa compounding vat para paydirt y minerales procesados.",
+        "Panea paydirt específico para buscar categorías concretas de salida.",
+        "Craftéate la Spelunker's Lantern para cuevas: iluminación azul muy alta.",
+        "Aprovecha +300% panning yield: cada completado cuenta como varias tandas de paneo."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Carbonaceous/metallic/crystalline paydirt",
+          "type_es": "bloques/materiales exclusivos",
+          "use_es": "Paydirt orientado a salidas concretas de paneo.",
+          "source_es": "recipes/spelunker"
+        },
+        {
+          "name_es": "Spelunker's Lantern",
+          "type_es": "linterna exclusiva",
+          "use_es": "Linterna muy brillante de explorador; luz 26 según changelog público.",
+          "source_es": "mod page/changelog + itemtype"
+        },
+        {
+          "name_es": "Compounding vat",
+          "type_es": "estación",
+          "use_es": "Procesado mineral y creación de paydirt.",
+          "source_es": "mod page + recipes"
+        },
+        {
+          "name_es": "Bombs",
+          "type_es": "recetas",
+          "use_es": "Bombas más baratas para minería/exploración.",
+          "source_es": "recipes/spelunker"
+        }
+      ],
+      "stations_es": [
+        "Compounding Vat"
+      ],
+      "mistakes_es": [
+        "El +300% de panning no significa que siempre caiga mineral: multiplica intentos/loot rolls, con resultados vacíos posibles."
+      ]
+    },
+    "tailor": {
+      "summary_es": "Fibras, telas, ropa, kits de ropa, alfombras y techos de paja. Su herramienta clave real es el huso/spindle y el kit de costura/ropa.",
+      "howToUse_es": [
+        "Craftea y usa el spindle para torcer fibras desde hierba seca, papyrus/flax y cuerdas según receta.",
+        "Craftea clothing assembly kits; pon el kit en la mano activa y mantén clic derecho para generar ropa aleatoria de esa categoría.",
+        "Usa sewing kit en recetas de alfombras/ropa cuando aparezca.",
+        "No confundas el adorno visual tipo aguja con una mecánica principal universal: la mecánica verificada es spindle + clothing assembly kit + sewing kit."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Spindle / huso",
+          "type_es": "herramienta principal",
+          "use_es": "Herramienta ponderada usada por el sastre para torcer fibras desde hierba seca.",
+          "source_es": "itemdesc-spindle + recipes/tailor"
+        },
+        {
+          "name_es": "Clothing assembly kit",
+          "type_es": "objeto exclusivo",
+          "use_es": "En mano activa, mantener clic derecho para crear una pieza de ropa aleatoria o de categoría.",
+          "source_es": "itemdesc-clothingassemblykit"
+        },
+        {
+          "name_es": "Sewing kit",
+          "type_es": "herramienta de receta",
+          "use_es": "Usado en recetas de alfombras/ropa; representa la parte de aguja/costura.",
+          "source_es": "recipes/tailor/rugs"
+        },
+        {
+          "name_es": "Crowbar",
+          "type_es": "herramienta de receta",
+          "use_es": "Aparece en recetas de techado/thatch roofing para desmontaje/reciclaje.",
+          "source_es": "recipes/tailor/roofing"
+        }
+      ],
+      "stations_es": [
+        "Mesa normal; no depende de una estación propia principal para su mecánica de kits"
+      ],
+      "mistakes_es": [
+        "Decir simplemente 'usa una aguja' es impreciso. Mejor: usa huso, kit de costura y clothing assembly kits."
+      ]
+    },
+    "vintner": {
+      "summary_es": "Forraje, vino, líquidos, bayas, frutales, setas y algunas interacciones suaves con bloomery/skep.",
+      "howToUse_es": [
+        "Usa sprouting table para berry bushes y fruit tree cuttings.",
+        "Usa fruitpress/barrels/buckets para líquidos y cadena de vino.",
+        "Usa fruiting bags: inocula con seta y guarda en bodega/cellar hasta que fructifique.",
+        "Puede vaciar bloomeries terminadas sin romperlas y cosechar skeps con cuchillo sin destruirlas, según rasgos gentleHarvest."
+      ],
+      "keyObjects": [
+        {
+          "name_es": "Fruiting bag",
+          "type_es": "objeto exclusivo",
+          "use_es": "Saco con sustrato para cultivar setas; inocular con seta y guardar en bodega para fructificar.",
+          "source_es": "itemdesc-fruitingbag"
+        },
+        {
+          "name_es": "Fruitpress, barrels, buckets",
+          "type_es": "cadena de líquidos",
+          "use_es": "Base del procesado de frutas, vino y almacenamiento líquido.",
+          "source_es": "mod page + recipes/vintner"
+        },
+        {
+          "name_es": "Sprouting table",
+          "type_es": "estación",
+          "use_es": "Permite crear arbustos de bayas y esquejes de frutal.",
+          "source_es": "mod page"
+        },
+        {
+          "name_es": "Knife",
+          "type_es": "herramienta de interacción",
+          "use_es": "Para cosechar skeps sin romperlos cuando el rasgo aplica.",
+          "source_es": "charattribute-gentleHarvestSkepEfficiency"
+        }
+      ],
+      "stations_es": [
+        "Sprouting Table",
+        "Fruitpress/barriles",
+        "Recetas de vidrio/líquidos"
+      ],
+      "mistakes_es": [
+        "No es solo vinos. Es el gran recolector: bayas, frutales, setas, líquidos y cosechas suaves."
+      ]
+    },
+    "commoner": {
+      "summary_es": "Clase base/generalista. No tiene cadena de objetos exclusivos; su ventaja es bajo mantenimiento y ausencia de especialización dura.",
+      "howToUse_es": [
+        "Elige Plebeyo si no quieres depender de roles del mod.",
+        "Aprovecha el hambre reducida y bonus moderados de XP si XSkills está activo.",
+        "No esperes recetas exclusivas ni mecánicas especiales de profesión."
+      ],
+      "keyObjects": [],
+      "stations_es": [],
+      "mistakes_es": [
+        "No es mala por no tener objetos: existe para ser clase segura/generalista y permitir cambios de mods de clases en partidas existentes."
+      ]
+    }
+  },
+  "globalMechanics": [
+    {
+      "title_es": "Recoger no es romper",
+      "body_es": "Algunas habilidades cambian una interacción: Archivista recoge/repara con palanca; Viticultor puede cosechar ciertos bloques sin destruirlos. Estas acciones no equivalen al saqueo normal."
+    },
+    {
+      "title_es": "Objeto único vs estación",
+      "body_es": "Varias clases no tienen solo bonus numéricos; su valor depende de herramientas o estaciones: Tinkerer's Workstation, Woodcarving Table, Stonecutting Bench, Sprouting Table, Compounding Vat, Leatherworking Station, etc."
+    },
+    {
+      "title_es": "Compatibilidades",
+      "body_es": "Algunos objetos/herramientas aparecen solo si está instalado otro mod compatible. Ejemplo: Relojero usa wrench/llave inglesa en recetas de Millwright; algunas recetas de Tailor's Delight usan spindle alternativo."
+    },
+    {
+      "title_es": "Los PNG son exportación",
+      "body_es": "La web dinámica usa estos archivos de datos. Si se corrige usage_ES.js o traits_ES.js, las fichas dinámicas cambian; los PNG/MD quedan como capturas estáticas."
+    }
+  ],
+  "traitUsageNotes": {
+    "curator": "Uso verificado: palanca/crowbar en mano + clic derecho sobre clutter/vasijas compatibles. La página pública menciona chisel, pero el ZIP 3.0.0-rc.1 y el DLL apuntan a crowbar.",
+    "archeologist": "Aumenta el rendimiento de vasijas rotas y conserva durabilidad de herramientas/armas arruinadas; no sustituye la mecánica de recoger con palanca.",
+    "tinkerer": "Desbloquea tuning spear; combinado con technical permite la mecánica de locusts/hacking indicada por el mod.",
+    "bloomer": "Permite vaciar bloomeries terminadas sin romperlas.",
+    "clothier": "Desbloquea sewing kits, clothing assembly kits y ropa. Los kits se usan en mano activa manteniendo clic derecho.",
+    "blackguard": "Incluye kits de reparación y recetas de metal/equipo; no es solo un bonus de combate.",
+    "clockmaker": "La estación clave es Tinkerer's Workstation; wrench/llave aparece en recetas de compatibilidad Millwright.",
+    "vintner": "Incluye fruiting bags, líquidos, arbustos/frutales y cosecha suave de bloomery/skep."
+  }
+}

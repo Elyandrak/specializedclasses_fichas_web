@@ -1,5 +1,11 @@
 # Histórico web
 
+## Web 2.4.2
+- Añadida la versión histórica del mod `Specialized Classes 2.2.2` al selector.
+- Datos nuevos en `data/mod_versions/2.2.2/`.
+- La versión `3.0.0-rc.1` se mantiene como versión por defecto.
+
+
 Estas versiones son de la **web/documentación**, no del juego ni del mod Specialized Classes.
 
 ## Web 2.4.1
