@@ -1,0 +1,4 @@
+Web/documentación: 2.4.1
+Mod analizado por defecto: specializedclasses 3.0.0-rc.1
+
+Nota: la versión 2.4.1 pertenece a esta web/documentación, no al mod ni al juego.

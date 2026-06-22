@@ -1,0 +1,5 @@
+Revisión 2.1.2
+
+Objetivo: sustituir categorías técnicas por nombres humanos en fichas HTML/MD/CSV/JSON/PNG.
+
+Resultado de comprobación: OK, sin restos técnicos buscados.

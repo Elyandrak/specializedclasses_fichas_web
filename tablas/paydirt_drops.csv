@@ -1,0 +1,40 @@
+﻿tierra_mineral,tipo,salida_legible,chance_avg,porcentaje
+Tierra mineral carbonosa,objeto/bloque,Mineral lignito ×1,0.12,12.0
+Tierra mineral carbonosa,objeto/bloque,Mineral carbón bituminoso ×1,0.08,8.0
+Tierra mineral carbonosa,objeto/bloque,Mineral antracita ×1,0.04,4.0
+Tierra mineral carbonosa,objeto/bloque,Arcilla roja ×1,0.02,2.0
+Tierra mineral carbonosa,objeto/bloque,Arcilla azul ×1,0.02,2.0
+Tierra mineral carbonosa,objeto/bloque,Arcilla refractaria ×1,0.01,1.0
+Tierra mineral carbonosa,objeto/bloque,Piedra creta ×1,0.02,2.0
+Tierra mineral carbonosa,objeto/bloque,Mineral azufre ×1,0.02,2.0
+Tierra mineral cristalina,objeto/bloque,Mineral cuarzo ×1,0.12,12.0
+Tierra mineral cristalina,objeto/bloque,Mineral lapislázuli ×1,0.05,5.0
+Tierra mineral cristalina,objeto/bloque,Mineral bórax ×1,0.04,4.0
+Tierra mineral cristalina,objeto/bloque,Piedra obsidiana ×1,0.04,4.0
+Tierra mineral cristalina,objeto/bloque,Sílex ×1,0.04,4.0
+Tierra mineral cristalina,objeto/bloque,Mineral olivino ×1,0.04,4.0
+Tierra mineral cristalina,objeto/bloque,Mineral alumbre ×1,0.03,3.0
+Tierra mineral cristalina,objeto/bloque,Mineral silvita ×1,0.02,2.0
+Tierra mineral cristalina,objeto/bloque,Mineral cinabrio ×1,0.02,2.0
+Tierra mineral cristalina,objeto/bloque,Cuarzo transparente ×1,0.05,5.0
+Tierra mineral cristalina,objeto/bloque,Cuarzo rosa ×1,0.01,1.0
+Tierra mineral cristalina,objeto/bloque,Amatista ×1,0.01,1.0
+Tierra mineral cristalina,objeto/bloque,Cuarzo ahumado ×1,0.01,1.0
+Tierra mineral cristalina,objeto/bloque,Gema esmeralda en bruto ×1,0.008,0.8
+Tierra mineral cristalina,objeto/bloque,Gema diamante en bruto ×1,0.004,0.4
+Tierra mineral cristalina,objeto/bloque,Gema olivino peridot en bruto ×1,0.01,1.0
+Tierra mineral metálica,objeto/bloque,Pepita cobre nativo ×1,0.12,12.0
+Tierra mineral metálica,objeto/bloque,Pepita oro nativo ×1,0.03,3.0
+Tierra mineral metálica,objeto/bloque,Pepita plata nativa ×1,0.03,3.0
+Tierra mineral metálica,objeto/bloque,Pepita casiterita ×1,0.05,5.0
+Tierra mineral metálica,objeto/bloque,Pepita galena ×1,0.05,5.0
+Tierra mineral metálica,objeto/bloque,Pepita esfalerita ×1,0.05,5.0
+Tierra mineral metálica,objeto/bloque,Pepita bismutinita ×1,0.04,4.0
+Tierra mineral metálica,objeto/bloque,Pepita limonita ×1,0.04,4.0
+Tierra mineral metálica,objeto/bloque,Pepita magnetita ×1,0.04,4.0
+Tierra mineral metálica,objeto/bloque,Pepita hematita ×1,0.04,4.0
+Tierra mineral metálica,objeto/bloque,Pepita malaquita ×1,0.05,5.0
+Tierra mineral metálica,objeto/bloque,Piedra bauxita ×1,0.03,3.0
+Tierra mineral metálica,objeto/bloque,Pepita cromita ×1,0.02,2.0
+Tierra mineral metálica,objeto/bloque,Pepita ilmenita ×1,0.02,2.0
+Tierra mineral metálica,objeto/bloque,Pepita pentlandita ×1,0.02,2.0

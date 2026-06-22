@@ -1,0 +1,17 @@
+﻿clase_es,clase_en,codigo,rasgos_base,bonus_numericos,malus_numericos,recetas_grid,recetas_estacion,recetas_compat
+Archivista,Archivist,archivist,7,7,4,239,4,1
+Guardia Negra,Blackguard,blackguard,7,7,5,43,8,0
+Alfarero,Brickmaker,brickmaker,7,12,5,65,3,2
+Carnicero,Butcher,butcher,7,9,5,23,1,16
+Relojero,Clockmaker,clockmaker,8,9,5,35,15,12
+Agricultor,Farmhand,farmhand,9,17,5,51,10,10
+Florista,Florist,florist,6,9,7,142,20,17
+Guardabosques,Forester,forester,8,13,7,62,55,4
+Cazador,Hunter,hunter,7,9,7,28,6,14
+Maleante,Malefactor,malefactor,9,12,5,12,0,0
+Mensajero,Messenger,messenger,6,7,6,54,24,2
+Cantero,Quarrier,quarrier,7,13,6,38,24,8
+Espeleólogo,Spelunker,spelunker,6,7,6,20,7,0
+Sastre,Tailor,tailor,8,10,6,53,0,2
+Viticultor,Vintner,vintner,7,11,6,36,2,15
+Plebeyo,Commoner,commoner,1,1,0,0,0,0

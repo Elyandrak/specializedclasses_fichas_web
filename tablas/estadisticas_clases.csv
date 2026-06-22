@@ -1,0 +1,260 @@
+﻿clase_es,clase_en,codigo_clase,rasgo_es,codigo_rasgo,tipo_rasgo,significado,valor_interno,valor_mostrado
+Archivista,Archivist,archivist,Guardián,custodian,positivo,daño recibido de criaturas de óxido,-0.25,-25%
+Archivista,Archivist,archivist,Guardián,custodian,positivo,pérdida de durabilidad de armadura,-0.5,-50%
+Archivista,Archivist,archivist,Guardián,custodian,positivo,probabilidad global de ahorrar durabilidad,0.5,+50%
+Archivista,Archivist,archivist,Archivista,archivist,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Archivista,Archivist,archivist,Conservador,curator,positivo,recolector de ruinas: puede recoger objetos decorativos de ruinas,1,activado (+1)
+Archivista,Archivist,archivist,Arqueólogo,archeologist,positivo,recuperación/conservación de herramientas arruinadas,1,+100%
+Archivista,Archivist,archivist,Arqueólogo,archeologist,positivo,contenido obtenido de vasijas,1,+100%
+Archivista,Archivist,archivist,Imperturbable,unphased,positivo,estabilidad temporal base,0.4,+40%
+Archivista,Archivist,archivist,Escrubidor,scourer,negativo,drop de semillas cultivadas,-0.75,-75%
+Archivista,Archivist,archivist,Escrubidor,scourer,negativo,drop de semillas/brotes de árbol,-0.75,-75%
+Archivista,Archivist,archivist,Escrubidor,scourer,negativo,drop de frutales,-0.75,-75%
+Archivista,Archivist,archivist,Estoico,stoic,negativo,ganancia de estabilidad temporal,-0.2,-20%
+Guardia Negra,Blackguard,blackguard,Guerrero,warlord,positivo,daño causado global,0.2,+20%
+Guardia Negra,Blackguard,blackguard,Guerrero,warlord,positivo,afectación de armadura a velocidad,-0.2,-20%
+Guardia Negra,Blackguard,blackguard,Guerrero,warlord,positivo,vida máxima,0.2,+20%
+Guardia Negra,Blackguard,blackguard,Guerrero,warlord,positivo,velocidad al caminar,-0.05,-5%
+Guardia Negra,Blackguard,blackguard,Guardia Negra,blackguard,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Guardia Negra,Blackguard,blackguard,Despiadado,merciless,desbloqueo/vanilla,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Guardia Negra,Blackguard,blackguard,Herrero,blacksmith,positivo,ahorro de durabilidad de martillo,0.75,+75%
+Guardia Negra,Blackguard,blackguard,Herrero,blacksmith,positivo,velocidad al trabajar metal,1,+100%
+Guardia Negra,Blackguard,blackguard,Termorresistente,heatproof,positivo,puede manipular objetos calientes,1,activado (+1)
+Guardia Negra,Blackguard,blackguard,Termorresistente,heatproof,positivo,daño recibido por fuego,-0.8,-80%
+Guardia Negra,Blackguard,blackguard,Protegido,sheltered,negativo,drop de forraje/recolección silvestre,-0.25,-25%
+Guardia Negra,Blackguard,blackguard,Protegido,sheltered,negativo,drop de cultivos silvestres,-0.25,-25%
+Guardia Negra,Blackguard,blackguard,Protegido,sheltered,negativo,drop/rendimiento de animales,-0.1,-10%
+Guardia Negra,Blackguard,blackguard,Juramento,oathsworn,negativo,daño contra humanoides,-0.1,-10%
+Alfarero,Brickmaker,brickmaker,Luchador,bruiser,positivo,vida máxima,0.5,+50%
+Alfarero,Brickmaker,brickmaker,Luchador,bruiser,positivo,daño recibido global,-0.2,-20%
+Alfarero,Brickmaker,brickmaker,Luchador,bruiser,positivo,afectación de armadura a velocidad,0.2,+20%
+Alfarero,Brickmaker,brickmaker,Alfarero,brickmaker,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Alfarero,Brickmaker,brickmaker,Divisor,delver,positivo,drop de arcilla,1,+100%
+Alfarero,Brickmaker,brickmaker,Divisor,delver,positivo,velocidad con arcilla/cerámica,1,+100%
+Alfarero,Brickmaker,brickmaker,Escavador,excavator,positivo,ahorro de durabilidad de pala,0.75,+75%
+Alfarero,Brickmaker,brickmaker,Escavador,excavator,positivo,velocidad con tierra,1,+100%
+Alfarero,Brickmaker,brickmaker,Escavador,excavator,positivo,velocidad con grava,1,+100%
+Alfarero,Brickmaker,brickmaker,Escavador,excavator,positivo,velocidad con arena,1,+100%
+Alfarero,Brickmaker,brickmaker,Escavador,excavator,positivo,velocidad con nieve,1,+100%
+Alfarero,Brickmaker,brickmaker,Operario de Horno,kilnhand,positivo,drop de hierba,0.25,+25%
+Alfarero,Brickmaker,brickmaker,Operario de Horno,kilnhand,positivo,drop de turba,0.25,+25%
+Alfarero,Brickmaker,brickmaker,Operario de Horno,kilnhand,positivo,drop de palos,0.25,+25%
+Alfarero,Brickmaker,brickmaker,Escrubidor,scourer,negativo,drop de semillas cultivadas,-0.75,-75%
+Alfarero,Brickmaker,brickmaker,Escrubidor,scourer,negativo,drop de semillas/brotes de árbol,-0.75,-75%
+Alfarero,Brickmaker,brickmaker,Escrubidor,scourer,negativo,drop de frutales,-0.75,-75%
+Alfarero,Brickmaker,brickmaker,Inflamable,flammable,negativo,daño recibido por fuego,1,+100%
+Carnicero,Butcher,butcher,Saqueador,reaver,positivo,multiplicador de regeneración curativa,1,+100%
+Carnicero,Butcher,butcher,Carnicero,butcher,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Carnicero,Butcher,butcher,Conservador,preserver,positivo,velocidad picando hielo,1,+100%
+Carnicero,Butcher,butcher,Conservador,preserver,positivo,probabilidad/drop de hielo de lago,1,+100%
+Carnicero,Butcher,butcher,Conservador,preserver,positivo,probabilidad de sal gema,0.1,+10%
+Carnicero,Butcher,butcher,Ganadero,rancher,positivo,drop de carne,1,+100%
+Carnicero,Butcher,butcher,Ganadero,rancher,positivo,drop/rendimiento de animales,0.5,+50%
+Carnicero,Butcher,butcher,Ganadero,rancher,positivo,rango de detección/agresión de animales,-0.25,-25%
+Carnicero,Butcher,butcher,Cocinero,chef,positivo,saciedad de comidas preparadas,0.5,+50%
+Carnicero,Butcher,butcher,Cocinero,chef,positivo,saciedad máxima,1,+100%
+Carnicero,Butcher,butcher,Escrubidor,scourer,negativo,drop de semillas cultivadas,-0.75,-75%
+Carnicero,Butcher,butcher,Escrubidor,scourer,negativo,drop de semillas/brotes de árbol,-0.75,-75%
+Carnicero,Butcher,butcher,Escrubidor,scourer,negativo,drop de frutales,-0.75,-75%
+Carnicero,Butcher,butcher,Goloso,gourmand,negativo,daño contra animales,-0.25,-25%
+Carnicero,Butcher,butcher,Goloso,gourmand,negativo,saciedad de comida simple,-0.25,-25%
+Relojero,Clockmaker,clockmaker,Lancero,lancer,positivo,altura de salto,0.2,+20%
+Relojero,Clockmaker,clockmaker,Lancero,lancer,positivo,daño a distancia,0.2,+20%
+Relojero,Clockmaker,clockmaker,Lancero,lancer,positivo,velocidad al caminar,0.1,+10%
+Relojero,Clockmaker,clockmaker,Lancero,lancer,positivo,daño recibido global,0.1,+10%
+Relojero,Clockmaker,clockmaker,Relojero,clockmaker,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Relojero,Clockmaker,clockmaker,Manitas,tinkerer,desbloqueo/vanilla,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Relojero,Clockmaker,clockmaker,Technical,technical,desbloqueo/vanilla,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Relojero,Clockmaker,clockmaker,Ingeniero,engineer,positivo,daño contra mecánicos,0.5,+50%
+Relojero,Clockmaker,clockmaker,Ingeniero,engineer,positivo,daño recibido de mecánicos,-0.5,-50%
+Relojero,Clockmaker,clockmaker,Ingeniero,engineer,positivo,drop de grasa,1,+100%
+Relojero,Clockmaker,clockmaker,Ingeniero,engineer,positivo,probabilidad de resina desde hojas,0.01,+1%
+Relojero,Clockmaker,clockmaker,Armónico,attuned,positivo,drop de engranajes temporales,1,+100%
+Relojero,Clockmaker,clockmaker,Armónico,attuned,positivo,ganancia de estabilidad temporal,0.5,+50%
+Relojero,Clockmaker,clockmaker,Escrubidor,scourer,negativo,drop de semillas cultivadas,-0.75,-75%
+Relojero,Clockmaker,clockmaker,Escrubidor,scourer,negativo,drop de semillas/brotes de árbol,-0.75,-75%
+Relojero,Clockmaker,clockmaker,Escrubidor,scourer,negativo,drop de frutales,-0.75,-75%
+Relojero,Clockmaker,clockmaker,Delicado,sensitive,negativo,daño recibido por veneno,1,+100%
+Agricultor,Farmhand,farmhand,Milicia,militia,positivo,velocidad al caminar,0.05,+5%
+Agricultor,Farmhand,farmhand,Milicia,militia,positivo,daño recibido global,-0.1,-10%
+Agricultor,Farmhand,farmhand,Milicia,militia,positivo,daño causado global,0.1,+10%
+Agricultor,Farmhand,farmhand,Agricultor,farmhand,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Agricultor,Farmhand,farmhand,Pescador,fisherman,positivo,velocidad nadando,0.5,+50%
+Agricultor,Farmhand,farmhand,Pescador,fisherman,positivo,ahorro de durabilidad de caña de pescar,0.75,+75%
+Agricultor,Farmhand,farmhand,Cosechador,harvester,positivo,drop de cosecha cultivada,0.5,+50%
+Agricultor,Farmhand,farmhand,Cosechador,harvester,positivo,drop de semillas cultivadas,1,+100%
+Agricultor,Farmhand,farmhand,Cosechador,harvester,positivo,drop de cultivos silvestres,1,+100%
+Agricultor,Farmhand,farmhand,Cosechador,harvester,positivo,probabilidad de semilla en cultivos jóvenes,1,+100%
+Agricultor,Farmhand,farmhand,Carpintero Naval,shipwright,positivo,probabilidad de estacas de bambú desde hojas,0.05,+5%
+Agricultor,Farmhand,farmhand,Carpintero Naval,shipwright,positivo,probabilidad de lianas desde hojas,0.05,+5%
+Agricultor,Farmhand,farmhand,Cultivador,tiller,positivo,velocidad con tierra,1,+100%
+Agricultor,Farmhand,farmhand,Cultivador,tiller,positivo,velocidad con plantas,1,+100%
+Agricultor,Farmhand,farmhand,Cultivador,tiller,positivo,ahorro de durabilidad de azada,0.75,+75%
+Agricultor,Farmhand,farmhand,Cultivador,tiller,positivo,ahorro de durabilidad de guadaña,0.75,+75%
+Agricultor,Farmhand,farmhand,Fertilizador,fertilizer,positivo,permanencia del fertilizante,0.25,+25%
+Agricultor,Farmhand,farmhand,Fertilizador,fertilizer,positivo,probabilidad de restos vegetales desde hierba,0.1,+10%
+Agricultor,Farmhand,farmhand,Delicado,delicate,negativo,drop de mineral,-0.1,-10%
+Agricultor,Farmhand,farmhand,Delicado,delicate,negativo,velocidad al picar mineral,-0.1,-10%
+Agricultor,Farmhand,farmhand,Delicado,delicate,negativo,velocidad al picar piedra,-0.1,-10%
+Agricultor,Farmhand,farmhand,Delicado,delicate,negativo,pérdida de estabilidad temporal,0.25,+25%
+Agricultor,Farmhand,farmhand,Bronceado,sunkissed,negativo,estabilidad temporal en interiores,-0.2,-20%
+Florista,Florist,florist,Senderista,wanderer,positivo,daño cuerpo a cuerpo,-0.25,-25%
+Florista,Florist,florist,Senderista,wanderer,positivo,daño a distancia,-0.25,-25%
+Florista,Florist,florist,Senderista,wanderer,positivo,velocidad al caminar,0.1,+10%
+Florista,Florist,florist,Senderista,wanderer,positivo,altura de salto,0.2,+20%
+Florista,Florist,florist,Senderista,wanderer,positivo,regeneración pasiva por segundo,0.1,0.1
+Florista,Florist,florist,Florista,florist,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Florista,Florist,florist,Apicultor,apiarist,positivo,cosecha suave/eficiencia de colmenas y skeps,1,+100%
+Florista,Florist,florist,Herbalista,herbalist,positivo,probabilidad de cola de caballo desde hierba,0.2,+20%
+Florista,Florist,florist,Herbalista,herbalist,positivo,drop de hierba,0.5,+50%
+Florista,Florist,florist,Herbalista,herbalist,positivo,velocidad con plantas,0.5,+50%
+Florista,Florist,florist,Herbalista,herbalist,positivo,ahorro de durabilidad de cuchillo,0.75,+75%
+Florista,Florist,florist,Herbalista,herbalist,positivo,ahorro de durabilidad de guadaña,0.75,+75%
+Florista,Florist,florist,Delicado,delicate,negativo,drop de mineral,-0.1,-10%
+Florista,Florist,florist,Delicado,delicate,negativo,velocidad al picar mineral,-0.1,-10%
+Florista,Florist,florist,Delicado,delicate,negativo,velocidad al picar piedra,-0.1,-10%
+Florista,Florist,florist,Delicado,delicate,negativo,pérdida de estabilidad temporal,0.25,+25%
+Florista,Florist,florist,Comprensivo,sympathetic,negativo,daño contra humanoides,-0.2,-20%
+Guardabosques,Forester,forester,Bárbaro,berserker,positivo,velocidad al caminar,0.05,+5%
+Guardabosques,Forester,forester,Bárbaro,berserker,positivo,daño cuerpo a cuerpo,0.3,+30%
+Guardabosques,Forester,forester,Bárbaro,berserker,positivo,daño recibido global,0.1,+10%
+Guardabosques,Forester,forester,Guardabosques,forester,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Guardabosques,Forester,forester,Carbonero,collier,positivo,drop de carbón vegetal,1,+100%
+Guardabosques,Forester,forester,Carbonero,collier,positivo,drop de turba,1,+100%
+Guardabosques,Forester,forester,Leñador,lumberjack,positivo,velocidad al trabajar madera,1,+100%
+Guardabosques,Forester,forester,Leñador,lumberjack,positivo,velocidad con hojas,1,+100%
+Guardabosques,Forester,forester,Leñador,lumberjack,positivo,ahorro de durabilidad de hacha,0.75,+75%
+Guardabosques,Forester,forester,Leñador,lumberjack,positivo,ahorro de durabilidad de tijeras,0.75,+75%
+Guardabosques,Forester,forester,Leñador,lumberjack,positivo,ahorro de durabilidad de sierra,0.75,+75%
+Guardabosques,Forester,forester,Leñador,lumberjack,positivo,probabilidad de restos vegetales desde hojas,0.05,+5%
+Guardabosques,Forester,forester,Técnico de Viveros,nurseryworker,positivo,drop de semillas/brotes de árbol,3,+300%
+Guardabosques,Forester,forester,Carpintero,carpenter,positivo,drop de troncos,0.5,+50%
+Guardabosques,Forester,forester,Carpintero,carpenter,positivo,probabilidad de resina desde troncos,0.02,+2%
+Guardabosques,Forester,forester,Delicado,delicate,negativo,drop de mineral,-0.1,-10%
+Guardabosques,Forester,forester,Delicado,delicate,negativo,velocidad al picar mineral,-0.1,-10%
+Guardabosques,Forester,forester,Delicado,delicate,negativo,velocidad al picar piedra,-0.1,-10%
+Guardabosques,Forester,forester,Delicado,delicate,negativo,pérdida de estabilidad temporal,0.25,+25%
+Guardabosques,Forester,forester,Herbívoro,herbivorous,negativo,saciedad de proteína/carne,-0.1,-10%
+Guardabosques,Forester,forester,Herbívoro,herbivorous,negativo,saciedad de lácteos,-0.1,-10%
+Cazador,Hunter,hunter,Francotirador,marksman,positivo,precisión a distancia,0.75,+75%
+Cazador,Hunter,hunter,Francotirador,marksman,positivo,daño a distancia,0.2,+20%
+Cazador,Hunter,hunter,Francotirador,marksman,positivo,velocidad al caminar,0.1,+10%
+Cazador,Hunter,hunter,Cazador,hunter,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Cazador,Hunter,hunter,Tirador,bowyer,desbloqueo/vanilla,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Cazador,Hunter,hunter,Guardabosques,ranger,positivo,daño contra animales,0.5,+50%
+Cazador,Hunter,hunter,Guardabosques,ranger,positivo,daño recibido de animales,-0.25,-25%
+Cazador,Hunter,hunter,Tallador,carver,positivo,tiempo de despiece/cosecha animal,-0.5,-50%
+Cazador,Hunter,hunter,Tallador,carver,positivo,drop/rendimiento de animales,0.25,+25%
+Cazador,Hunter,hunter,Tallador,carver,positivo,drop de pieles,1,+100%
+Cazador,Hunter,hunter,Tallador,carver,positivo,ahorro de durabilidad de cuchillo,0.75,+75%
+Cazador,Hunter,hunter,Delicado,delicate,negativo,drop de mineral,-0.1,-10%
+Cazador,Hunter,hunter,Delicado,delicate,negativo,velocidad al picar mineral,-0.1,-10%
+Cazador,Hunter,hunter,Delicado,delicate,negativo,velocidad al picar piedra,-0.1,-10%
+Cazador,Hunter,hunter,Delicado,delicate,negativo,pérdida de estabilidad temporal,0.25,+25%
+Cazador,Hunter,hunter,Carnívoro,carnivorous,negativo,saciedad de grano,-0.1,-10%
+Cazador,Hunter,hunter,Carnívoro,carnivorous,negativo,saciedad de verdura,-0.1,-10%
+Cazador,Hunter,hunter,Carnívoro,carnivorous,negativo,saciedad de fruta,-0.1,-10%
+Maleante,Malefactor,malefactor,Pícaro,rogue,positivo,rango de detección/agresión de animales,-0.75,-75%
+Maleante,Malefactor,malefactor,Pícaro,rogue,positivo,daño recibido global,0.1,+10%
+Maleante,Malefactor,malefactor,Pícaro,rogue,positivo,daño causado global,0.1,+10%
+Maleante,Malefactor,malefactor,Maleante,malefactor,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Maleante,Malefactor,malefactor,Improvisador,improviser,desbloqueo/vanilla,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Maleante,Malefactor,malefactor,Contrabandista,smuggler,positivo,puede abrir ventana extra de comercio,1,activado (+1)
+Maleante,Malefactor,malefactor,Acechador,sneak,positivo,daño contra humanoides,0.5,+50%
+Maleante,Malefactor,malefactor,Acechador,sneak,positivo,velocidad agachado,0.5,+50%
+Maleante,Malefactor,malefactor,Ladrón,thief,positivo,alcance para recoger objetos,1,+100%
+Maleante,Malefactor,malefactor,Ladrón,thief,positivo,drop de engranajes oxidados,1,+100%
+Maleante,Malefactor,malefactor,Desguazador,scrapper,positivo,drop de nidos de langosta,1,+100%
+Maleante,Malefactor,malefactor,Desguazador,scrapper,positivo,daño con honda,0.5,+50%
+Maleante,Malefactor,malefactor,Desguazador,scrapper,positivo,daño con herramientas de chatarra,0.5,+50%
+Maleante,Malefactor,malefactor,Desguazador,scrapper,positivo,ahorro de durabilidad de herramientas de chatarra,1,+100%
+Maleante,Malefactor,malefactor,Desguazador,scrapper,positivo,ahorro de durabilidad de honda,1,+100%
+Maleante,Malefactor,malefactor,Escrubidor,scourer,negativo,drop de semillas cultivadas,-0.75,-75%
+Maleante,Malefactor,malefactor,Escrubidor,scourer,negativo,drop de semillas/brotes de árbol,-0.75,-75%
+Maleante,Malefactor,malefactor,Escrubidor,scourer,negativo,drop de frutales,-0.75,-75%
+Maleante,Malefactor,malefactor,Insípido,flavorless,negativo,saciedad de comidas preparadas,-0.1,-10%
+Mensajero,Messenger,messenger,Halcón,harrier,positivo,velocidad al caminar,0.2,+20%
+Mensajero,Messenger,messenger,Halcón,harrier,positivo,daño recibido global,0.1,+10%
+Mensajero,Messenger,messenger,Halcón,harrier,positivo,rango de detección/agresión de animales,0.5,+50%
+Mensajero,Messenger,messenger,Mensajero,messenger,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Mensajero,Messenger,messenger,Extendedor,roadlayer,positivo,ahorro de durabilidad de pala,0.5,+50%
+Mensajero,Messenger,messenger,Extendedor,roadlayer,positivo,velocidad con grava,0.5,+50%
+Mensajero,Messenger,messenger,Extendedor,roadlayer,positivo,velocidad con arena,0.5,+50%
+Mensajero,Messenger,messenger,Extendedor,roadlayer,positivo,velocidad con nieve,0.5,+50%
+Mensajero,Messenger,messenger,Extendedor,roadlayer,positivo,velocidad con tierra,0.5,+50%
+Mensajero,Messenger,messenger,Ágil,swift,positivo,velocidad en caminos,0.2,+20%
+Mensajero,Messenger,messenger,Protegido,sheltered,negativo,drop de forraje/recolección silvestre,-0.25,-25%
+Mensajero,Messenger,messenger,Protegido,sheltered,negativo,drop de cultivos silvestres,-0.25,-25%
+Mensajero,Messenger,messenger,Protegido,sheltered,negativo,drop/rendimiento de animales,-0.1,-10%
+Mensajero,Messenger,messenger,Ligero,lightweight,negativo,saciedad máxima,-0.2,-20%
+Cantero,Quarrier,quarrier,Obrero,laborer,positivo,afectación de armadura a velocidad,-0.75,-75%
+Cantero,Quarrier,quarrier,Obrero,laborer,positivo,vida máxima,0.1,+10%
+Cantero,Quarrier,quarrier,Obrero,laborer,positivo,velocidad al caminar,-0.05,-5%
+Cantero,Quarrier,quarrier,Cantero,quarrier,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Cantero,Quarrier,quarrier,Ascético,ascetic,positivo,estabilidad temporal en interiores,0.3,+30%
+Cantero,Quarrier,quarrier,Ascético,ascetic,positivo,daño con herramientas de piedra,0.5,+50%
+Cantero,Quarrier,quarrier,Ascético,ascetic,positivo,ahorro de durabilidad de herramientas de piedra,1,+100%
+Cantero,Quarrier,quarrier,Ascético,ascetic,positivo,velocidad de minado con herramientas de piedra,0.5,+50%
+Cantero,Quarrier,quarrier,Cantero,stonecutter,positivo,probabilidad de roca/piedra suelta,0.5,+50%
+Cantero,Quarrier,quarrier,Cantero,stonecutter,positivo,drop de piedra,0.25,+25%
+Cantero,Quarrier,quarrier,Tunelador,tunneler,positivo,velocidad al picar piedra,1,+100%
+Cantero,Quarrier,quarrier,Tunelador,tunneler,positivo,velocidad al picar mineral,1.5,+150%
+Cantero,Quarrier,quarrier,Tunelador,tunneler,positivo,ahorro de durabilidad de pico,0.75,+75%
+Cantero,Quarrier,quarrier,Tunelador,tunneler,positivo,ahorro de durabilidad de martillo,0.75,+75%
+Cantero,Quarrier,quarrier,Tunelador,tunneler,positivo,ahorro de durabilidad de cincel,0.75,+75%
+Cantero,Quarrier,quarrier,Protegido,sheltered,negativo,drop de forraje/recolección silvestre,-0.25,-25%
+Cantero,Quarrier,quarrier,Protegido,sheltered,negativo,drop de cultivos silvestres,-0.25,-25%
+Cantero,Quarrier,quarrier,Protegido,sheltered,negativo,drop/rendimiento de animales,-0.1,-10%
+Cantero,Quarrier,quarrier,Torpe,clumsy,negativo,drop de mineral,-0.1,-10%
+Cantero,Quarrier,quarrier,Torpe,clumsy,negativo,contenido obtenido de vasijas,-0.25,-25%
+Espeleólogo,Spelunker,spelunker,Zapador,sapper,positivo,daño recibido por explosión,-0.9,-90%
+Espeleólogo,Spelunker,spelunker,Zapador,sapper,positivo,daño recibido por aplastamiento,-0.9,-90%
+Espeleólogo,Spelunker,spelunker,Espeleólogo,spelunker,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Espeleólogo,Spelunker,spelunker,Bateador,panner,positivo,salida/rendimiento al batear,1,+100%
+Espeleólogo,Spelunker,spelunker,Bateador,panner,positivo,velocidad al batear,1,+100%
+Espeleólogo,Spelunker,spelunker,Prospector,prospector,positivo,drop de mineral,1,+100%
+Espeleólogo,Spelunker,spelunker,Prospector,prospector,positivo,velocidad al picar mineral,0.5,+50%
+Espeleólogo,Spelunker,spelunker,Prospector,prospector,positivo,ahorro de durabilidad de pico,0.5,+50%
+Espeleólogo,Spelunker,spelunker,Petrofóbico,petrophobe,negativo,velocidad al picar piedra,-0.1,-10%
+Espeleólogo,Spelunker,spelunker,Petrofóbico,petrophobe,negativo,velocidad de minado con herramientas de piedra,-0.2,-20%
+Espeleólogo,Spelunker,spelunker,Petrofóbico,petrophobe,negativo,daño con herramientas de piedra,-0.2,-20%
+Espeleólogo,Spelunker,spelunker,Protegido,sheltered,negativo,drop de forraje/recolección silvestre,-0.25,-25%
+Espeleólogo,Spelunker,spelunker,Protegido,sheltered,negativo,drop de cultivos silvestres,-0.25,-25%
+Espeleólogo,Spelunker,spelunker,Protegido,sheltered,negativo,drop/rendimiento de animales,-0.1,-10%
+Sastre,Tailor,tailor,Esgrimista,fencer,positivo,velocidad de sprint,0.1,+10%
+Sastre,Tailor,tailor,Esgrimista,fencer,positivo,esquiva garantizada: enfriamiento,60,60
+Sastre,Tailor,tailor,Esgrimista,fencer,positivo,afectación de armadura a velocidad,0.2,+20%
+Sastre,Tailor,tailor,Sastre,tailor,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Sastre,Tailor,tailor,Sastrería,clothier,desbloqueo/vanilla,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Sastre,Tailor,tailor,A Medida,bespoke,positivo,pérdida de durabilidad de armadura,-0.8,-80%
+Sastre,Tailor,tailor,Triturador,thresher,positivo,velocidad con plantas,1,+100%
+Sastre,Tailor,tailor,Triturador,thresher,positivo,velocidad con telas/fibras,1,+100%
+Sastre,Tailor,tailor,Triturador,thresher,positivo,ahorro de durabilidad de guadaña,0.75,+75%
+Sastre,Tailor,tailor,Triturador,thresher,positivo,ahorro de durabilidad de cuchillo,0.75,+75%
+Sastre,Tailor,tailor,Tejedor,weaver,positivo,probabilidad de fibra de lino desde hierba,0.1,+10%
+Sastre,Tailor,tailor,Tejedor,weaver,positivo,drop de fibra de lino,1,+100%
+Sastre,Tailor,tailor,Tejedor,weaver,positivo,drop de hierba,1,+100%
+Sastre,Tailor,tailor,Delicado,delicate,negativo,drop de mineral,-0.1,-10%
+Sastre,Tailor,tailor,Delicado,delicate,negativo,velocidad al picar mineral,-0.1,-10%
+Sastre,Tailor,tailor,Delicado,delicate,negativo,velocidad al picar piedra,-0.1,-10%
+Sastre,Tailor,tailor,Delicado,delicate,negativo,pérdida de estabilidad temporal,0.25,+25%
+Sastre,Tailor,tailor,Puritano,prude,negativo,daño recibido por frío,4,+400%
+Viticultor,Vintner,vintner,Mitridatista,mithridatist,positivo,daño recibido por veneno,-0.9,-90%
+Viticultor,Vintner,vintner,Mitridatista,mithridatist,positivo,saciedad de bebidas,1,+100%
+Viticultor,Vintner,vintner,Mitridatista,mithridatist,positivo,curación recibida,0.25,+25%
+Viticultor,Vintner,vintner,Viticultor,vintner,positivo,sin atributos numéricos en traits.json; desbloqueo/rasgo de receta,—,—
+Viticultor,Vintner,vintner,Recolector,gatherer,positivo,drop de forraje/recolección silvestre,1,+100%
+Viticultor,Vintner,vintner,Recolector,gatherer,positivo,drop de frutales,1,+100%
+Viticultor,Vintner,vintner,Recolector,gatherer,positivo,drop de semillas/brotes de árbol,1,+100%
+Viticultor,Vintner,vintner,Fundidor,bloomer,positivo,cosecha suave de horno bajo/bloomery,1,activado (+1)
+Viticultor,Vintner,vintner,Selector,picker,positivo,velocidad con hojas,1,+100%
+Viticultor,Vintner,vintner,Selector,picker,positivo,velocidad con plantas,1,+100%
+Viticultor,Vintner,vintner,Selector,picker,positivo,ahorro de durabilidad de tijeras,0.75,+75%
+Viticultor,Vintner,vintner,Selector,picker,positivo,ahorro de durabilidad de cuchillo,0.75,+75%
+Viticultor,Vintner,vintner,Delicado,delicate,negativo,drop de mineral,-0.1,-10%
+Viticultor,Vintner,vintner,Delicado,delicate,negativo,velocidad al picar mineral,-0.1,-10%
+Viticultor,Vintner,vintner,Delicado,delicate,negativo,velocidad al picar piedra,-0.1,-10%
+Viticultor,Vintner,vintner,Delicado,delicate,negativo,pérdida de estabilidad temporal,0.25,+25%
+Viticultor,Vintner,vintner,Dependiente,dependent,negativo,saciedad de comidas preparadas,-0.1,-10%
+Viticultor,Vintner,vintner,Dependiente,dependent,negativo,saciedad de comida simple,-0.1,-10%
+Plebeyo,Commoner,commoner,Ahorrativo,frugal,positivo,ritmo de hambre,-0.75,-75%

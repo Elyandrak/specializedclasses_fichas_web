@@ -1,0 +1,2296 @@
+{
+  "schema": "specializedclasses.recipes_summary_ES.v1",
+  "modVersion": "3.0.0-rc.1",
+  "note_es": "Resumen ligero para la web. El CSV completo sigue en tablas/recetas_por_clase.csv.",
+  "recipesByClass": {
+    "florist": {
+      "total": 179,
+      "byMethod": {
+        "mesa normal": 142,
+        "estación": 20,
+        "compatibilidad": 17
+      },
+      "topCategories": [
+        {
+          "category": "Pigmentos y tintes",
+          "count": 38
+        },
+        {
+          "category": "Vasijas y recipientes cerámicos",
+          "count": 34
+        },
+        {
+          "category": "Cuadros y pinturas",
+          "count": 25
+        },
+        {
+          "category": "Alfarería y piezas de barro",
+          "count": 21
+        },
+        {
+          "category": "Cuba de mezclas y alquimia",
+          "count": 17
+        },
+        {
+          "category": "Papeles pintados",
+          "count": 9
+        },
+        {
+          "category": "From Golden Combs: apicultura",
+          "count": 9
+        },
+        {
+          "category": "Mezcla de pigmentos",
+          "count": 6
+        },
+        {
+          "category": "Expanded Beekeeping: apicultura",
+          "count": 6
+        },
+        {
+          "category": "Flores",
+          "count": 4
+        },
+        {
+          "category": "Medicina",
+          "count": 4
+        },
+        {
+          "category": "Mesa de germinación",
+          "count": 3
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Apicultura",
+          "output": "Beenade closed ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Flores",
+          "output": "Flower flowertype libre ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Flores",
+          "output": "Flower flowertype libre ×5",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Flores",
+          "output": "Flower flowertype libre ×17",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Medicina",
+          "output": "Poultice lino horsetail ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Medicina",
+          "output": "Poultice lino honey azufre ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Medicina",
+          "output": "Poultice reed horsetail ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Medicina",
+          "output": "Poultice reed honey azufre ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting bogfort norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting castleruin norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting cow norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting hunterintheforest norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting seraph norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting sunkenruin norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting traveler norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting howl norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting elk norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuadros y pinturas",
+          "output": "Painting underwater norte ×1",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "messenger": {
+      "total": 80,
+      "byMethod": {
+        "mesa normal": 54,
+        "estación": 24,
+        "compatibilidad": 2
+      },
+      "topCategories": [
+        {
+          "category": "Bolsas y mochilas",
+          "count": 18
+        },
+        {
+          "category": "Mesa de cartografía",
+          "count": 12
+        },
+        {
+          "category": "Mesa de trabajo de cuero",
+          "count": 12
+        },
+        {
+          "category": "Faroles y linternas",
+          "count": 11
+        },
+        {
+          "category": "Lámparas de gas",
+          "count": 9
+        },
+        {
+          "category": "Caminos y senderos",
+          "count": 8
+        },
+        {
+          "category": "Velas",
+          "count": 5
+        },
+        {
+          "category": "Candelabros",
+          "count": 2
+        },
+        {
+          "category": "Primitive Survival: embarcaciones",
+          "count": 2
+        },
+        {
+          "category": "Carreteras de asfalto",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Carreteras de asfalto",
+          "output": "Asphaltroad libre ×32",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Basket normal reed ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Basket normal papyrus ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Hunterbackpack ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Hunterbackpack ×3",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Hunterbackpack ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Linensack ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Backpack normal ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Backpack sturdy ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Messengerbag ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Scrollcase ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Portablecrate ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsas y mochilas",
+          "output": "Vesselframe ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Velas",
+          "output": "Candle ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Velas",
+          "output": "Oillamp color up ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Candelabros",
+          "output": "Displaycase genérica ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Candelabros",
+          "output": "Talldisplaycase genérica ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Lámparas de gas",
+          "output": "Lámpara Jonas ×1",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "farmhand": {
+      "total": 71,
+      "byMethod": {
+        "mesa normal": 51,
+        "estación": 10,
+        "compatibilidad": 10
+      },
+      "topCategories": [
+        {
+          "category": "Cuerdas y cordajes",
+          "count": 17
+        },
+        {
+          "category": "Cebos olorosos",
+          "count": 10
+        },
+        {
+          "category": "Tejados y piezas de cubierta",
+          "count": 7
+        },
+        {
+          "category": "Tailor's Delight: cuerdas",
+          "count": 7
+        },
+        {
+          "category": "Mesa de germinación",
+          "count": 6
+        },
+        {
+          "category": "Putrefacción y compostaje",
+          "count": 5
+        },
+        {
+          "category": "Fertilizantes",
+          "count": 4
+        },
+        {
+          "category": "Tierra y sustratos",
+          "count": 4
+        },
+        {
+          "category": "Cuba de mezclas y alquimia",
+          "count": 4
+        },
+        {
+          "category": "Balsas y embarcaciones simples",
+          "count": 2
+        },
+        {
+          "category": "Raíces",
+          "count": 2
+        },
+        {
+          "category": "Food Shelves: almacenamiento agrícola",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Fertilizantes",
+          "output": "Potash ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Fertilizantes",
+          "output": "Bonemeal ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Fertilizantes",
+          "output": "Powder charcoal ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Fertilizantes",
+          "output": "Compost ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Balsas y embarcaciones simples",
+          "output": "Boat Balsas y embarcaciones simples bamboo angler ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Balsas y embarcaciones simples",
+          "output": "Oar bamboo ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tejados y piezas de cubierta",
+          "output": "Tejado inclinado bamboo este libre ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tejados y piezas de cubierta",
+          "output": "Cumbrera de tejado bamboo norte-sur libre ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tejados y piezas de cubierta",
+          "output": "Punta de tejado bamboo libre ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tejados y piezas de cubierta",
+          "output": "Esquina interior de tejado bamboo este libre ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tejados y piezas de cubierta",
+          "output": "Esquina exterior de tejado bamboo este libre ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tejados y piezas de cubierta",
+          "output": "Beam ridge bamboo libre ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tejados y piezas de cubierta",
+          "output": "Beam plane bamboo libre ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Raíces",
+          "output": "Cattailroot ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Raíces",
+          "output": "Papyrusroot ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuerdas y cordajes",
+          "output": "Supportrope one nuevo ×32",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuerdas y cordajes",
+          "output": "Supportrope doble nuevo ×32",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cuerdas y cordajes",
+          "output": "Supportrope three nuevo ×32",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "clockmaker": {
+      "total": 62,
+      "byMethod": {
+        "mesa normal": 35,
+        "estación": 15,
+        "compatibilidad": 12
+      },
+      "topCategories": [
+        {
+          "category": "Mecánica y transmisión de potencia",
+          "count": 19
+        },
+        {
+          "category": "Mesa de inventor/relojería",
+          "count": 15
+        },
+        {
+          "category": "Piezas Jonas y componentes antiguos",
+          "count": 14
+        },
+        {
+          "category": "Millwright: potencia mecánica",
+          "count": 12
+        },
+        {
+          "category": "Teletransportadores",
+          "count": 2
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasparts connector01 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasparts cylinder01 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasparts cylinder02 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasparts tank01 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasparts tank02 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasparts valve01 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasframes gearbox01 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasframes gearbox02 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasframes oscillator01 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasframes spring01 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasframes joint01 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasframes gears01 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Piezas Jonas y componentes antiguos",
+          "output": "Jonasframes gears02 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Mecánica y transmisión de potencia",
+          "output": "Windmillrotor Madera y carpintería norte ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Mecánica y transmisión de potencia",
+          "output": "Woodenaxle vertical ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Mecánica y transmisión de potencia",
+          "output": "Angledgears s ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Mecánica y transmisión de potencia",
+          "output": "Brake norte ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Mecánica y transmisión de potencia",
+          "output": "Helvehammerbase norte ×2",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "butcher": {
+      "total": 40,
+      "byMethod": {
+        "mesa normal": 23,
+        "estación": 1,
+        "compatibilidad": 16
+      },
+      "topCategories": [
+        {
+          "category": "Butchering: herramientas de carnicería",
+          "count": 8
+        },
+        {
+          "category": "Curado y secado",
+          "count": 6
+        },
+        {
+          "category": "Ganadería",
+          "count": 6
+        },
+        {
+          "category": "Comida para animales",
+          "count": 4
+        },
+        {
+          "category": "Primitive Survival: curado",
+          "count": 4
+        },
+        {
+          "category": "Conservación de alimentos",
+          "count": 3
+        },
+        {
+          "category": "Food Shelves: almacenamiento en frío",
+          "count": 3
+        },
+        {
+          "category": "Molienda",
+          "count": 1
+        },
+        {
+          "category": "Utensilios de cocina",
+          "count": 1
+        },
+        {
+          "category": "Molino manual",
+          "count": 1
+        },
+        {
+          "category": "Selladores",
+          "count": 1
+        },
+        {
+          "category": "Cuba de mezclas y alquimia",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Curado y secado",
+          "output": "Salt ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y secado",
+          "output": "Bushmeat cured ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y secado",
+          "output": "Redmeat cured ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y secado",
+          "output": "Poultry cured ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y secado",
+          "output": "Fish cured ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curado y secado",
+          "output": "Redmeat vintage ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Comida para animales",
+          "output": "Universalherbivorefeed ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Comida para animales",
+          "output": "Universalcarnivorefeed ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Flour grain ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Utensilios de cocina",
+          "output": "Ceramiccauldron color fired ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Conservación de alimentos",
+          "output": "Icepack ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molino manual",
+          "output": "Quern piedra ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería",
+          "output": "Trapcrate Madera y carpintería ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería",
+          "output": "Stationarybasket este ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería",
+          "output": "Trough genericwood small norte-sur ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería",
+          "output": "Trough genericwood large casco norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ganadería",
+          "output": "Henbox ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Selladores",
+          "output": "Sealant ×16",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "blackguard": {
+      "total": 51,
+      "byMethod": {
+        "mesa normal": 43,
+        "estación": 8
+      },
+      "topCategories": [
+        {
+          "category": "Moldes y estampas de forja",
+          "count": 16
+        },
+        {
+          "category": "Armaduras y piezas defensivas",
+          "count": 10
+        },
+        {
+          "category": "Bloques metálicos",
+          "count": 10
+        },
+        {
+          "category": "Cadenas",
+          "count": 7
+        },
+        {
+          "category": "Tejados y piezas de cubierta",
+          "count": 7
+        },
+        {
+          "category": "Trabajo de metal",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Kit de reparación de armadura ×3",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Armadura casco antigua guardia negra rota ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Armadura pechera antigua guardia negra rota ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Armadura grebas antigua guardia negra rota ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Armadura casco antigua forlorn rota ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Armadura pechera antigua forlorn rota ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Armadura grebas antigua forlorn rota ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Hoja forlorn iron ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Lanza genérica ornamentada de oro ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Armaduras y piezas defensivas",
+          "output": "Lanza genérica ornamentada de plata ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cadenas",
+          "output": "Cadena de soporte doble ×64",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cadenas",
+          "output": "Cadena de soporte cuádruple ×64",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cadenas",
+          "output": "Cadena de soporte doble nueva ×64",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cadenas",
+          "output": "Cadena de soporte cuádruple nueva ×64",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cadenas",
+          "output": "Valla de hierro base este-oeste ×32",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cadenas",
+          "output": "Valla de hierro parte superior este-oeste ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cadenas",
+          "output": "Valla de hierro base este-oeste ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bloques metálicos",
+          "output": "Bloque metálico nuevo remachado metal ×1",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "hunter": {
+      "total": 48,
+      "byMethod": {
+        "mesa normal": 28,
+        "estación": 6,
+        "compatibilidad": 14
+      },
+      "topCategories": [
+        {
+          "category": "Procesado de materiales",
+          "count": 25
+        },
+        {
+          "category": "Butchering: bolsas y equipo",
+          "count": 7
+        },
+        {
+          "category": "Mesa de trabajo de cuero",
+          "count": 6
+        },
+        {
+          "category": "More Arrows: flechas",
+          "count": 3
+        },
+        {
+          "category": "Primitive Survival: cecina",
+          "count": 3
+        },
+        {
+          "category": "Flechas",
+          "count": 2
+        },
+        {
+          "category": "Curtido",
+          "count": 1
+        },
+        {
+          "category": "Butchering: flechas",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Flechas",
+          "output": "Arrow metal ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Flechas",
+          "output": "Arrow bone ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Hide scraped small ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Hide scraped medium ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Hide scraped large ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Hide scraped huge ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Leather normal liso ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Leather normal liso ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Leather normal liso ×3",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Leather normal liso ×5",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Leather sturdy liso ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Hide oiled species ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Hide oiled species ×3",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Hide oiled species ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Hide oiled species ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Curtido",
+          "output": "Leather ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mesa de trabajo de cuero",
+          "output": "Hide scraped size ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Mesa de trabajo de cuero",
+          "output": "Hide scraped huge ×3",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "quarrier": {
+      "total": 70,
+      "byMethod": {
+        "mesa normal": 38,
+        "estación": 24,
+        "compatibilidad": 8
+      },
+      "topCategories": [
+        {
+          "category": "Banco de corte de piedra",
+          "count": 24
+        },
+        {
+          "category": "Bloques envejecidos",
+          "count": 9
+        },
+        {
+          "category": "Montaje de piezas",
+          "count": 7
+        },
+        {
+          "category": "Tejados y piezas de cubierta",
+          "count": 7
+        },
+        {
+          "category": "Formaciones de cueva",
+          "count": 7
+        },
+        {
+          "category": "Bricklayers: montaje de ladrillos",
+          "count": 7
+        },
+        {
+          "category": "Cuarzo y cristales",
+          "count": 5
+        },
+        {
+          "category": "Procesado de materiales",
+          "count": 3
+        },
+        {
+          "category": "Stone Quarry: cantería",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Bloques envejecidos",
+          "output": "Overlay damagedstone ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bloques envejecidos",
+          "output": "Ladrillos de piedra envejecidos rock ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bloques envejecidos",
+          "output": "Roca pulida antigua bloque completo rock ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bloques envejecidos",
+          "output": "Roca pulida antigua adoquinado rock ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bloques envejecidos",
+          "output": "Crackedstonebricks rock ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bloques envejecidos",
+          "output": "Diamante piedra clean envejecido ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bloques envejecidos",
+          "output": "Diamante piedra dark envejecido ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bloques envejecidos",
+          "output": "Diamante piedra light envejecido ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bloques envejecidos",
+          "output": "Diamante piedra mixed envejecido ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Montaje de piezas",
+          "output": "Rock tipo de piedra ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Montaje de piezas",
+          "output": "Stonebrick tipo de piedra ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Montaje de piezas",
+          "output": "Stonebricks tipo de piedra ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Montaje de piezas",
+          "output": "Tile 2x2 liso travertine ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Montaje de piezas",
+          "output": "Stonebrickslab tipo de piedra abajo libre ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Montaje de piezas",
+          "output": "Tileslab 2x2 liso travertine abajo libre ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Montaje de piezas",
+          "output": "Stonebrickstairs tipo de piedra up norte libre ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Piedra tipo de roca ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Procesado de materiales",
+          "output": "Gravel tipo de piedra ×1",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "archivist": {
+      "total": 244,
+      "byMethod": {
+        "mesa normal": 239,
+        "estación": 4,
+        "compatibilidad": 1
+      },
+      "topCategories": [
+        {
+          "category": "Libros, estanterías y decoración de biblioteca",
+          "count": 58
+        },
+        {
+          "category": "Banderas y decoración colgante",
+          "count": 47
+        },
+        {
+          "category": "Lámparas Jonas y tecnología antigua",
+          "count": 26
+        },
+        {
+          "category": "Camas y mobiliario de dormitorio antiguo",
+          "count": 20
+        },
+        {
+          "category": "Tuberías y piezas industriales decorativas",
+          "count": 20
+        },
+        {
+          "category": "Muebles de ruinas",
+          "count": 12
+        },
+        {
+          "category": "Papel, pergaminos y documentos",
+          "count": 10
+        },
+        {
+          "category": "Madera y piedra envejecida",
+          "count": 9
+        },
+        {
+          "category": "Telas y tapices decorativos",
+          "count": 9
+        },
+        {
+          "category": "Cajas y embalajes",
+          "count": 6
+        },
+        {
+          "category": "Velas y candelabros",
+          "count": 5
+        },
+        {
+          "category": "Faroles y lámparas colgantes",
+          "count": 5
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Madera y piedra envejecida",
+          "output": "Tablones ébano envejecido vertical ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Madera y piedra envejecida",
+          "output": "Tablones ébano podrido vertical ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Madera y piedra envejecida",
+          "output": "Tronco colocado envejecido vertical ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Madera y piedra envejecida",
+          "output": "Tronco sin corteza muy envejecido vertical ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Madera y piedra envejecida",
+          "output": "Tronco sin corteza podrido vertical ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Madera y piedra envejecida",
+          "output": "Tronco sin corteza muy podrido vertical ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Madera y piedra envejecida",
+          "output": "Ladrillos de piedra envejecidos tipo de piedra ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Madera y piedra envejecida",
+          "output": "Roca pulida antigua bloque completo tipo de roca ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Madera y piedra envejecida",
+          "output": "Roca pulida antigua adoquinado tipo de roca ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Banderas y decoración colgante",
+          "output": "Objeto decorativo de ruinas ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Banderas y decoración colgante",
+          "output": "Bandera segmento ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Banderas y decoración colgante",
+          "output": "Bandera bandera ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Faroles y lámparas colgantes",
+          "output": "Candelabro sin velas ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tuberías y piezas industriales decorativas",
+          "output": "Objeto decorativo de ruinas ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Lámparas Jonas y tecnología antigua",
+          "output": "Lámpara Jonas ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Vigas metálicas",
+          "output": "Viga de soporte metal deslustrado metal ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Papel, pergaminos y documentos",
+          "output": "Papel pergamino ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Papel, pergaminos y documentos",
+          "output": "Tamiz lino ×1",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "brickmaker": {
+      "total": 70,
+      "byMethod": {
+        "mesa normal": 65,
+        "estación": 3,
+        "compatibilidad": 2
+      },
+      "topCategories": [
+        {
+          "category": "Yeso y revestimientos",
+          "count": 20
+        },
+        {
+          "category": "Adobe y enlucidos",
+          "count": 15
+        },
+        {
+          "category": "Cerámica en lote",
+          "count": 8
+        },
+        {
+          "category": "Tejados y piezas de cubierta",
+          "count": 7
+        },
+        {
+          "category": "Ladrillos de arcilla",
+          "count": 6
+        },
+        {
+          "category": "Utensilios de cocina",
+          "count": 3
+        },
+        {
+          "category": "Ladrillos de barro",
+          "count": 3
+        },
+        {
+          "category": "Cuba de mezclas y alquimia",
+          "count": 3
+        },
+        {
+          "category": "Pastas y mezclas",
+          "count": 2
+        },
+        {
+          "category": "Bricklayers: cerámica en lote",
+          "count": 2
+        },
+        {
+          "category": "Tierra compactada",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Cerámica en lote",
+          "output": "Rawbrick arcilla ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cerámica en lote",
+          "output": "Refractorybrick raw tier1 ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cerámica en lote",
+          "output": "Refractorybrick raw tier2 ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cerámica en lote",
+          "output": "Refractorybrick raw tier3 ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cerámica en lote",
+          "output": "Shingle raw arcilla ×32",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cerámica en lote",
+          "output": "Claytile raw liso arcilla ×12",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cerámica en lote",
+          "output": "Oillamp genie arcilla raw ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos de arcilla",
+          "output": "Claybricks uneven cuádruple running arcilla ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos de arcilla",
+          "output": "Claybricks uneven cuádruple soldier arcilla ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos de arcilla",
+          "output": "Claybricks uneven cuádruple header arcilla ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos de arcilla",
+          "output": "Claybricks uneven cuádruple running refractaria ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos de arcilla",
+          "output": "Claybricks uneven cuádruple soldier refractaria ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Ladrillos de arcilla",
+          "output": "Brickruin irregular arcilla ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Adobe y enlucidos",
+          "output": "Daubraw ash ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Adobe y enlucidos",
+          "output": "Daubraw browngolden ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Adobe y enlucidos",
+          "output": "Daubraw marrón ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Adobe y enlucidos",
+          "output": "Daubraw brownlight ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Adobe y enlucidos",
+          "output": "Daubraw brownweathered ×16",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "tailor": {
+      "total": 55,
+      "byMethod": {
+        "mesa normal": 53,
+        "compatibilidad": 2
+      },
+      "topCategories": [
+        {
+          "category": "Kits de ropa y costura",
+          "count": 19
+        },
+        {
+          "category": "Alfombras y tapices de suelo",
+          "count": 16
+        },
+        {
+          "category": "Tejados y piezas de cubierta",
+          "count": 15
+        },
+        {
+          "category": "Fibras",
+          "count": 3
+        },
+        {
+          "category": "Tailor's Delight: fibras",
+          "count": 2
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit genérica ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit genérica ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit casco ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit shoulder ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit upperbody ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit upperbodyover ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit lowerbody ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit foot ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit hand ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit neck ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit face ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit waist ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit arm ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Kits de ropa y costura",
+          "output": "Clothingassemblykit emblem ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Fibras",
+          "output": "Fibras de lino ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Fibras",
+          "output": "Cordel de lino ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Fibras",
+          "output": "Hay envejecido vertical ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tejados y piezas de cubierta",
+          "output": "Tejado inclinado paja este libre ×4",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "vintner": {
+      "total": 53,
+      "byMethod": {
+        "mesa normal": 36,
+        "estación": 2,
+        "compatibilidad": 15
+      },
+      "topCategories": [
+        {
+          "category": "Esquejes y recortes de plantas",
+          "count": 12
+        },
+        {
+          "category": "Tintado de vidrio",
+          "count": 10
+        },
+        {
+          "category": "Líquidos y recipientes",
+          "count": 5
+        },
+        {
+          "category": "Tejados y piezas de cubierta",
+          "count": 5
+        },
+        {
+          "category": "Alchemy: vidrio de alquimia",
+          "count": 4
+        },
+        {
+          "category": "Food Shelves: almacenamiento de líquidos",
+          "count": 4
+        },
+        {
+          "category": "A Culinary Artillery: embotellado",
+          "count": 3
+        },
+        {
+          "category": "Trabajo de vidrio",
+          "count": 2
+        },
+        {
+          "category": "Mesa de germinación",
+          "count": 2
+        },
+        {
+          "category": "NDL Mushroom Growth: cultivo",
+          "count": 2
+        },
+        {
+          "category": "Substrate: cultivo",
+          "count": 2
+        },
+        {
+          "category": "Arbustos",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Arbustos",
+          "output": "Fruitingbushcutting berrytype libre ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Esquejes y recortes de plantas",
+          "output": "Fruittree cutting ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bolsa de fructificación",
+          "output": "Fruitingbag empty ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass azul ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass violet ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass roja ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass yellow ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass marrón ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass pink ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass green ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass vintage ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass cuarzo ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tintado de vidrio",
+          "output": "Glass smoky ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Trabajo de vidrio",
+          "output": "Cuarzo transparente ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Trabajo de vidrio",
+          "output": "Glasspane leaded Madera y carpintería este-oeste ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Líquidos y recipientes",
+          "output": "Barrel ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Líquidos y recipientes",
+          "output": "Woodbucket ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Líquidos y recipientes",
+          "output": "Fruitpress norte-sur ×1",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "commoner": {
+      "total": 0,
+      "byMethod": {},
+      "topCategories": [],
+      "examples": []
+    },
+    "spelunker": {
+      "total": 27,
+      "byMethod": {
+        "mesa normal": 20,
+        "estación": 7
+      },
+      "topCategories": [
+        {
+          "category": "Molienda",
+          "count": 11
+        },
+        {
+          "category": "Cuba de mezclas y alquimia",
+          "count": 7
+        },
+        {
+          "category": "Bombas y explosivos",
+          "count": 5
+        },
+        {
+          "category": "Tierra mineral para batear",
+          "count": 3
+        },
+        {
+          "category": "Faroles y linternas",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Bombas y explosivos",
+          "output": "Bomb mineral ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bombas y explosivos",
+          "output": "Bomb piedra ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Bombas y explosivos",
+          "output": "Bomb scrap ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Lime ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Salt ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Powder oretype ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Saltpeter ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Powder sílex ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Powder alumbre ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Powder charcoal ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Bonemeal ×2",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Bonemeal ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Molienda",
+          "output": "Powder iron oxide ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Faroles y linternas",
+          "output": "Spelunkinglantern ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tierra mineral para batear",
+          "output": "Tierra mineral carbonosa ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tierra mineral para batear",
+          "output": "Tierra mineral cristalina ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Tierra mineral para batear",
+          "output": "Tierra mineral metálica ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "estación",
+          "category": "Cuba de mezclas y alquimia",
+          "output": "Lime ×4",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "malefactor": {
+      "total": 12,
+      "byMethod": {
+        "mesa normal": 12
+      },
+      "topCategories": [
+        {
+          "category": "Recuperación de chatarra y piezas",
+          "count": 11
+        },
+        {
+          "category": "Comercio",
+          "count": 1
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Recuperación de chatarra y piezas",
+          "output": "Scrapweaponkit ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Recuperación de chatarra y piezas",
+          "output": "Torchholder ruined empty norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Recuperación de chatarra y piezas",
+          "output": "Torchholder envejecido empty norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Recuperación de chatarra y piezas",
+          "output": "Metal scraps ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Recuperación de chatarra y piezas",
+          "output": "Axe scrap scrap ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Recuperación de chatarra y piezas",
+          "output": "Club scrap scrap ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Recuperación de chatarra y piezas",
+          "output": "Club scrapmace scrap ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Recuperación de chatarra y piezas",
+          "output": "Hoja scrap scrap ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Recuperación de chatarra y piezas",
+          "output": "Lanza scrap scrap ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Comercio",
+          "output": "Gear rusty ×8",
+          "compatMod": "—"
+        }
+      ]
+    },
+    "forester": {
+      "total": 121,
+      "byMethod": {
+        "mesa normal": 62,
+        "estación": 55,
+        "compatibilidad": 4
+      },
+      "topCategories": [
+        {
+          "category": "Mesa de tallado de madera",
+          "count": 53
+        },
+        {
+          "category": "Empalizadas y defensas de madera",
+          "count": 10
+        },
+        {
+          "category": "Envejecido de madera",
+          "count": 10
+        },
+        {
+          "category": "Madera y carpintería",
+          "count": 9
+        },
+        {
+          "category": "Combustibles",
+          "count": 8
+        },
+        {
+          "category": "Puertas",
+          "count": 7
+        },
+        {
+          "category": "Tejados y piezas de cubierta",
+          "count": 7
+        },
+        {
+          "category": "Procesado de madera",
+          "count": 6
+        },
+        {
+          "category": "Camas",
+          "count": 2
+        },
+        {
+          "category": "Mesa de germinación",
+          "count": 2
+        },
+        {
+          "category": "Toolsmith: mangos de herramienta",
+          "count": 2
+        },
+        {
+          "category": "Toolsmith Fork: mangos de herramienta",
+          "count": 2
+        }
+      ],
+      "examples": [
+        {
+          "method": "mesa normal",
+          "category": "Camas",
+          "output": "Bed woodaged casco norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Camas",
+          "output": "Bed village casco norte ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Cofres y almacenamiento",
+          "output": "Chest este ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Puertas",
+          "output": "Door ruined rough1 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Puertas",
+          "output": "Door ruined rough2 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Puertas",
+          "output": "Door ruined rough3 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Puertas",
+          "output": "Door ruined windowed1 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Puertas",
+          "output": "Door ruined windowed2 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Puertas",
+          "output": "Door ruined windowed3 ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Puertas",
+          "output": "Door sleek windowed Madera y carpintería ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Combustibles",
+          "output": "Firewood ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Combustibles",
+          "output": "Firewood ×12",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Combustibles",
+          "output": "Agedfirewood ×16",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Combustibles",
+          "output": "Firewood treated ×1",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Combustibles",
+          "output": "Coal contaminated ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Combustibles",
+          "output": "Charcoal ×8",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Combustibles",
+          "output": "Briquette ×4",
+          "compatMod": "—"
+        },
+        {
+          "method": "mesa normal",
+          "category": "Hojas",
+          "output": "Leaves colocado Madera y carpintería ×4",
+          "compatMod": "—"
+        }
+      ]
+    }
+  },
+  "globalTotals": {
+    "totalRecipes": 1183,
+    "categoryCount": 130
+  }
+}
