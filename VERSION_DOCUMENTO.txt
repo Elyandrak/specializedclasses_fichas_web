@@ -1,10 +1,3 @@
-Web/documentación Specialized Classes: 2.4.3
-Versión del mod por defecto: 3.0.0-rc.1
-Versión histórica añadida: 2.2.2
-
-Nota: 2.4.3 es versión de esta web/documentación, no del mod.
-
-Cambios 2.4.3:
-- Añadida imagen Open Graph para previsualización al pegar el enlace.
-- Añadidas metaetiquetas og:* y twitter:* en las páginas principales.
-- Añadido README_GITHUB_OPENGRAPH.md con instrucciones de subida/verificación.
+Web/documentación Specialized Classes
+Versión web: 2.5.8
+Base: 2.5.7 + recorte mejor encuadrado de assets/personajes.

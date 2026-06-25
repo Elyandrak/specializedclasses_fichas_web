@@ -26,7 +26,7 @@ Para que al pegar el enlace se muestre una imagen, sube estos cambios al reposit
 La imagen apunta a:
 
 ```text
-https://elyandrak.github.io/specializedclasses_fichas_web/assets/preview-specialized-classes.png?v=243
+https://elyandrak.github.io/specializedclasses_fichas_web/assets/preview-specialized-classes.png?v=250
 ```
 
 ## Si no se actualiza la vista previa
@@ -34,10 +34,10 @@ WhatsApp, Discord y Telegram cachean las imágenes. Si sigue saliendo vacío o a
 
 1. Espera unos minutos tras publicar GitHub Pages.
 2. Abre directamente:
-   `https://elyandrak.github.io/specializedclasses_fichas_web/assets/preview-specialized-classes.png?v=243`
-3. Cambia `?v=243` por `?v=244` en los meta tags si necesitas forzar caché nueva.
+   `https://elyandrak.github.io/specializedclasses_fichas_web/assets/preview-specialized-classes.png?v=250`
+3. Cambia `?v=250` por `?v=251` en los meta tags si necesitas forzar caché nueva.
 4. En Discord, pega primero la URL con un parámetro nuevo:
-   `https://elyandrak.github.io/specializedclasses_fichas_web/?v=243`
+   `https://elyandrak.github.io/specializedclasses_fichas_web/?v=250`
 
 ## Nota
 Esto no cambia datos del mod. Solo cambia la previsualización al compartir el enlace.
