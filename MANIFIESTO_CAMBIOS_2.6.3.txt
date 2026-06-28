@@ -1,0 +1,24 @@
+Archivos principales modificados/añadidos en 2.6.3:
+- assets/js/app.js
+- assets/css/styles.css
+- data/i18n/content_i18n.js
+- data/png_manifest.js
+- ficha_export.html
+- scripts/export_png.cjs
+- scripts/static_server.cjs
+- package.json
+- index.html
+- clase.html
+- rasgos.html
+- mecanicas.html
+- historico_web.html
+- versiones.html
+- README_I18N_VERSIONES.md
+- README_EXPORTACION_PNG.md
+- CHANGELOG_2.6.3.md
+- VERSION_DOCUMENTO.txt
+- HISTORICO_WEB.md
+- LEEME.txt
+- fichas_png/<version>/<lang>/*.png
+- fichas_md/<version>/<lang>/*.md
+- Historico/specializedclasses_fichas_web_2.6.3 (copia completa final)

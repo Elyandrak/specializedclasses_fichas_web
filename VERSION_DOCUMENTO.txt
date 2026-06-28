@@ -1,4 +1,5 @@
 Web/documentación Specialized Classes
-Versión web: 2.6.2
-Base: paquete 2.6.1 tomado como última versión funcional correcta.
-Cambio destacado: navegación responsive por clases, francés/catalán/italiano y enlace oficial del mod; se conservan los retratos reencuadrados.
+Versión web: 2.6.3
+Base: web 2.6.2.
+Cambio destacado: resolución i18n centralizada y exportaciones PNG/MD por versión del mod e idioma.
+Nota: 2.6.3 es la versión de esta web/documentación, no una versión del mod Specialized Classes.

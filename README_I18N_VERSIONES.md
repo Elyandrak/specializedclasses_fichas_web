@@ -1,4 +1,4 @@
-# Idiomas y versiones — Specialized Classes fichas web 2.6.2
+# Idiomas y versiones — Specialized Classes fichas web 2.6.3
 
 ## Objetivo
 
@@ -43,9 +43,23 @@ Parámetros:
 
 ```text
 data/i18n/i18n.js
+data/i18n/content_i18n.js
 ```
 
-Ahí están los textos de interfaz, nombres humanos de clases, descripciones y traducciones auxiliares.
+`i18n.js` contiene idiomas, interfaz, nombres y descripciones principales. `content_i18n.js` contiene traducción de contenido versionado, etiquetas técnicas y el resolver de fallback.
+
+## Orden de fallback
+
+```text
+1. idioma activo
+2. inglés
+3. español
+4. texto técnico o identificador
+```
+
+La lógica principal no accede directamente a `name_es`, `summary_es`, `effectText_es`, etc. Usa `localizedField`, `localizedArray`, `mapText` y `contentText` en `assets/js/app.js`.
+
+La prosa técnica sin traducción humana específica usa el fallback inglés. Los valores numéricos, conteos y stats siempre salen de los datos de la versión del mod seleccionada.
 
 ## Dónde se editan los datos por versión del mod
 
@@ -68,3 +82,5 @@ clase.html?class=archivist&version=3.0.0-rc.1&lang=es
 ```
 
 Así se evita crecimiento exponencial.
+
+Las exportaciones no duplican páginas HTML: una sola plantilla `ficha_export.html` genera los PNG/MD versionados y localizados.

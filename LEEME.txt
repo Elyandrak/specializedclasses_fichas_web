@@ -1,3 +1,4 @@
-Versión web/documentación: 2.6.2
-Base usada: 2.6.1 (última versión funcional correcta).
-Alcance del cambio: menú responsive de clases en portada, tres idiomas nuevos, enlace oficial y conservación de los ajustes visuales de assets/personajes.
+Versión web/documentación: 2.6.3
+Base usada: web 2.6.2.
+Alcance: i18n centralizado, contenido interno localizado y exportaciones PNG/MD por versión del mod e idioma.
+2.6.3 es una versión de la web/documentación, no del mod Specialized Classes.

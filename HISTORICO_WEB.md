@@ -1,3 +1,12 @@
+# Web 2.6.3
+
+- Resolver único de textos con prioridad: idioma activo → inglés → español → texto técnico.
+- Eliminados los accesos directos a campos `_es` desde la lógica de renderizado.
+- Clases, rasgos, efectos, herramientas, mecánicas, categorías y ayudas usan la versión del mod y el idioma activos.
+- Enlaces PNG y MD versionados, localizados y comprobados mediante manifiesto para no generar enlaces rotos.
+- Plantilla de exportación y script Playwright reproducible para todas las combinaciones soportadas.
+- `2.6.3` identifica la versión de la web/documentación; no es una versión del mod.
+
 # Web 2.6.2
 
 - Base usada: `2.6.1` como última versión funcional correcta.
