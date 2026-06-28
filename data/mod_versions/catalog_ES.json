@@ -1,6 +1,6 @@
 {
   "schema": "specializedclasses.version_catalog_ES.v1",
-  "packageVersion": "2.5.8",
+  "packageVersion": "2.6.1",
   "defaultVersion": "3.0.0-rc.1",
   "versions": [
     {
