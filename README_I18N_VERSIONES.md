@@ -1,4 +1,4 @@
-# Idiomas y versiones — Specialized Classes fichas web 2.5.0
+# Idiomas y versiones — Specialized Classes fichas web 2.6.2
 
 ## Objetivo
 
@@ -35,6 +35,9 @@ Parámetros:
 - `ru`: ruso.
 - `uk`: ucraniano.
 - `pt`: portugués.
+- `fr`: francés.
+- `ca`: catalán.
+- `it`: italiano.
 
 ## Dónde se editan las traducciones
 

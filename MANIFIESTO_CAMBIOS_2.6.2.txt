@@ -1,0 +1,29 @@
+Archivos modificados/añadidos en 2.6.2:
+- index.html
+- assets/js/app.js
+- assets/css/styles.css
+- data/i18n/i18n.js
+- assets/personajes/archivist.png
+- assets/personajes/blackguard.png
+- assets/personajes/brickmaker.png
+- assets/personajes/butcher.png
+- assets/personajes/clockmaker.png
+- assets/personajes/commoner.png
+- assets/personajes/farmhand.png
+- assets/personajes/florist.png
+- assets/personajes/forester.png
+- assets/personajes/hunter.png
+- assets/personajes/malefactor.png
+- assets/personajes/messenger.png
+- assets/personajes/quarrier.png
+- assets/personajes/spelunker.png
+- assets/personajes/tailor.png
+- assets/personajes/vintner.png
+- CHANGELOG_2.6.2.md
+- VERSION_DOCUMENTO.txt
+- LEEME.txt
+- HISTORICO_WEB.md
+- README_I18N_VERSIONES.md
+- VERIFICACION_PERSONAJES_2.6.2.md
+- INCIDENCIA_APRENDIDA_2.6.2.md
+- Historico/specializedclasses_fichas_web_2.6.2 (copia completa de la versión publicada)
