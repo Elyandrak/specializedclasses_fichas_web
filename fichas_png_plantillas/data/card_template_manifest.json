@@ -1,0 +1,94 @@
+{
+  "_description": "Manifiesto de plantillas de fichas dinámicas.",
+  "versions": {
+    "3.0.0-rc.1": {
+      "canvas": {
+        "w": 1240,
+        "h": 1754
+      },
+      "layout": "data/card_layouts/3.0.0-rc.1.json",
+      "classes": {
+        "archivist": {
+          "sourceFile": "01_Archivista_archivist.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/archivist.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/archivist.webp"
+        },
+        "blackguard": {
+          "sourceFile": "02_Guardia_Negra_blackguard.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/blackguard.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/blackguard.webp"
+        },
+        "brickmaker": {
+          "sourceFile": "03_Alfarero_brickmaker.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/brickmaker.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/brickmaker.webp"
+        },
+        "butcher": {
+          "sourceFile": "04_Carnicero_butcher.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/butcher.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/butcher.webp"
+        },
+        "clockmaker": {
+          "sourceFile": "05_Relojero_clockmaker.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/clockmaker.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/clockmaker.webp"
+        },
+        "farmhand": {
+          "sourceFile": "06_Agricultor_farmhand.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/farmhand.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/farmhand.webp"
+        },
+        "florist": {
+          "sourceFile": "07_Florista_florist.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/florist.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/florist.webp"
+        },
+        "forester": {
+          "sourceFile": "08_Guardabosques_forester.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/forester.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/forester.webp"
+        },
+        "hunter": {
+          "sourceFile": "09_Cazador_hunter.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/hunter.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/hunter.webp"
+        },
+        "malefactor": {
+          "sourceFile": "10_Maleante_malefactor.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/malefactor.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/malefactor.webp"
+        },
+        "messenger": {
+          "sourceFile": "11_Mensajero_messenger.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/messenger.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/messenger.webp"
+        },
+        "quarrier": {
+          "sourceFile": "12_Cantero_quarrier.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/quarrier.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/quarrier.webp"
+        },
+        "spelunker": {
+          "sourceFile": "13_Espeleólogo_spelunker.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/spelunker.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/spelunker.webp"
+        },
+        "tailor": {
+          "sourceFile": "14_Sastre_tailor.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/tailor.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/tailor.webp"
+        },
+        "vintner": {
+          "sourceFile": "15_Viticultor_vintner.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/vintner.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/vintner.webp"
+        },
+        "commoner": {
+          "sourceFile": "16_Plebeyo_commoner.png",
+          "templatePng": "assets/card_templates/3.0.0-rc.1/png/commoner.png",
+          "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/commoner.webp"
+        }
+      }
+    }
+  }
+}

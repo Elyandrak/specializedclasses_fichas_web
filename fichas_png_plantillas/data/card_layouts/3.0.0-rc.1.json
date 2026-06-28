@@ -1,0 +1,302 @@
+{
+  "_description": "Coordenadas de inyección para plantillas dinámicas de fichas. Base: PNG 1240x1754. Todas las coordenadas están en píxeles absolutos del canvas.",
+  "version": "3.0.0-rc.1",
+  "canvas": {
+    "w": 1240,
+    "h": 1754
+  },
+  "fallbackTemplateFormat": "webp",
+  "common": {
+    "zones": {
+      "classTitle": {
+        "x": 72,
+        "y": 72,
+        "w": 900,
+        "h": 70,
+        "role": "text",
+        "style": "title"
+      },
+      "classMeta": {
+        "x": 74,
+        "y": 142,
+        "w": 980,
+        "h": 40,
+        "role": "text",
+        "style": "meta"
+      },
+      "classIntro": {
+        "x": 74,
+        "y": 182,
+        "w": 1030,
+        "h": 45,
+        "role": "text",
+        "style": "small"
+      },
+      "statRanges": {
+        "x": 351,
+        "y": 288,
+        "w": 154,
+        "h": 79,
+        "role": "statBox"
+      },
+      "statBonus": {
+        "x": 538,
+        "y": 288,
+        "w": 154,
+        "h": 79,
+        "role": "statBox"
+      },
+      "statMalus": {
+        "x": 725,
+        "y": 288,
+        "w": 154,
+        "h": 79,
+        "role": "statBox"
+      },
+      "statTraits": {
+        "x": 912,
+        "y": 288,
+        "w": 154,
+        "h": 79,
+        "role": "statBox"
+      },
+      "humanTitle": {
+        "x": 354,
+        "y": 396,
+        "w": 700,
+        "h": 35,
+        "role": "sectionTitle"
+      },
+      "humanText": {
+        "x": 354,
+        "y": 437,
+        "w": 780,
+        "h": 170,
+        "role": "paragraph"
+      },
+      "bonusTitle": {
+        "x": 62,
+        "y": 704,
+        "w": 440,
+        "h": 38,
+        "role": "sectionTitle"
+      },
+      "bonusList": {
+        "x": 62,
+        "y": 752,
+        "w": 500,
+        "h": 320,
+        "role": "list"
+      },
+      "malusTitle": {
+        "x": 620,
+        "y": 704,
+        "w": 440,
+        "h": 38,
+        "role": "sectionTitle"
+      },
+      "malusList": {
+        "x": 620,
+        "y": 752,
+        "w": 500,
+        "h": 320,
+        "role": "list"
+      },
+      "recipesTitle": {
+        "x": 62,
+        "y": 1142,
+        "w": 780,
+        "h": 38,
+        "role": "sectionTitle"
+      },
+      "recipesListLeft": {
+        "x": 62,
+        "y": 1194,
+        "w": 500,
+        "h": 200,
+        "role": "list"
+      },
+      "recipesListRight": {
+        "x": 620,
+        "y": 1194,
+        "w": 500,
+        "h": 200,
+        "role": "list"
+      },
+      "iconsStrip": {
+        "x": 74,
+        "y": 1500,
+        "w": 640,
+        "h": 120,
+        "role": "staticAssetAlreadyInTemplate"
+      },
+      "categoriesTitle": {
+        "x": 755,
+        "y": 1502,
+        "w": 360,
+        "h": 34,
+        "role": "sectionTitle"
+      },
+      "categoriesText": {
+        "x": 755,
+        "y": 1542,
+        "w": 360,
+        "h": 96,
+        "role": "paragraph"
+      }
+    },
+    "styles": {
+      "title": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 58,
+        "lineHeight": 1.0,
+        "color": "#ffeaa0",
+        "fontWeight": "700"
+      },
+      "meta": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 20,
+        "lineHeight": 1.2,
+        "color": "#d8b16a",
+        "fontWeight": "600"
+      },
+      "small": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 18,
+        "lineHeight": 1.25,
+        "color": "#c9ad85"
+      },
+      "sectionTitle": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 26,
+        "lineHeight": 1.1,
+        "color": "#f5c15d",
+        "fontWeight": "700"
+      },
+      "paragraph": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 23,
+        "lineHeight": 1.25,
+        "color": "#e8d7b4"
+      },
+      "list": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 20,
+        "lineHeight": 1.22,
+        "color": "#e8d7b4"
+      },
+      "bonus": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 20,
+        "lineHeight": 1.22,
+        "color": "#86e86f"
+      },
+      "malus": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 20,
+        "lineHeight": 1.22,
+        "color": "#ff8a5c"
+      },
+      "statValue": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 24,
+        "lineHeight": 1.1,
+        "color": "#ffeaa0",
+        "fontWeight": "700"
+      },
+      "statLabel": {
+        "fontFamily": "Georgia, serif",
+        "fontSize": 13,
+        "lineHeight": 1.0,
+        "color": "#d8b16a"
+      }
+    }
+  },
+  "classes": {
+    "archivist": {
+      "sourceFile": "01_Archivista_archivist.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/archivist.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/archivist.webp"
+    },
+    "blackguard": {
+      "sourceFile": "02_Guardia_Negra_blackguard.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/blackguard.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/blackguard.webp"
+    },
+    "brickmaker": {
+      "sourceFile": "03_Alfarero_brickmaker.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/brickmaker.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/brickmaker.webp"
+    },
+    "butcher": {
+      "sourceFile": "04_Carnicero_butcher.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/butcher.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/butcher.webp"
+    },
+    "clockmaker": {
+      "sourceFile": "05_Relojero_clockmaker.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/clockmaker.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/clockmaker.webp"
+    },
+    "farmhand": {
+      "sourceFile": "06_Agricultor_farmhand.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/farmhand.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/farmhand.webp"
+    },
+    "florist": {
+      "sourceFile": "07_Florista_florist.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/florist.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/florist.webp"
+    },
+    "forester": {
+      "sourceFile": "08_Guardabosques_forester.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/forester.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/forester.webp"
+    },
+    "hunter": {
+      "sourceFile": "09_Cazador_hunter.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/hunter.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/hunter.webp"
+    },
+    "malefactor": {
+      "sourceFile": "10_Maleante_malefactor.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/malefactor.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/malefactor.webp"
+    },
+    "messenger": {
+      "sourceFile": "11_Mensajero_messenger.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/messenger.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/messenger.webp"
+    },
+    "quarrier": {
+      "sourceFile": "12_Cantero_quarrier.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/quarrier.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/quarrier.webp"
+    },
+    "spelunker": {
+      "sourceFile": "13_Espeleólogo_spelunker.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/spelunker.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/spelunker.webp"
+    },
+    "tailor": {
+      "sourceFile": "14_Sastre_tailor.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/tailor.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/tailor.webp"
+    },
+    "vintner": {
+      "sourceFile": "15_Viticultor_vintner.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/vintner.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/vintner.webp"
+    },
+    "commoner": {
+      "sourceFile": "16_Plebeyo_commoner.png",
+      "templatePng": "assets/card_templates/3.0.0-rc.1/png/commoner.png",
+      "templateWebp": "assets/card_templates/3.0.0-rc.1/webp/commoner.webp"
+    }
+  },
+  "_notes": [
+    "Las plantillas conservan marco, retrato y strip visual de iconos de cada clase.",
+    "El texto se ha eliminado por zonas para poder inyectarlo en HTML/CSS/JS según version+lang.",
+    "Si una clase necesita ajuste especial, añadir override en classes.<classId>.zoneOverrides sin duplicar HTML."
+  ]
+}

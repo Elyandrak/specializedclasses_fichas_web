@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Demo plantilla ficha dinámica</title>
+<style>
+  body{margin:0;background:#120b05;color:#ead7a2;font-family:Georgia,serif}
+  .card{position:relative;width:620px;height:877px;margin:24px auto;background-size:100% 100%;background-repeat:no-repeat}
+  .layer{position:absolute;overflow:hidden}
+  .title{font-size:29px;font-weight:700;color:#ffeaa0}
+  .section{font-size:13px;font-weight:700;color:#f5c15d}
+  .text{font-size:10px;line-height:1.22;color:#e8d7b4}
+  .bonus{color:#86e86f}
+  .malus{color:#ff8a5c}
+</style>
+</head>
+<body>
+<div class="card" style="background-image:url('../assets/card_templates/3.0.0-rc.1/webp/archivist.webp')">
+  <div class="layer title" style="left:36px;top:36px;width:450px;height:35px">ARCHIVISTA</div>
+  <div class="layer text" style="left:37px;top:71px;width:490px;height:20px">Ejemplo: texto inyectado según idioma y versión.</div>
+  <div class="layer section" style="left:177px;top:198px;width:350px;height:18px">LECTURA HUMANA</div>
+  <div class="layer text" style="left:177px;top:219px;width:390px;height:85px">Aquí se renderiza la descripción dinámica de la clase.</div>
+  <div class="layer section bonus" style="left:31px;top:352px;width:220px;height:19px">BONUS</div>
+  <div class="layer text bonus" style="left:31px;top:376px;width:250px;height:160px">• Bonus dinámicos<br>• Según lang + version</div>
+  <div class="layer section malus" style="left:310px;top:352px;width:220px;height:19px">MALUS</div>
+  <div class="layer text malus" style="left:310px;top:376px;width:250px;height:160px">• Malus dinámicos<br>• Según lang + version</div>
+</div>
+</body>
+</html>
