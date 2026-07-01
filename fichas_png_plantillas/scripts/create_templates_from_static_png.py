@@ -33,9 +33,7 @@ def main(zip_path, output_dir):
     with zipfile.ZipFile(zip_path) as z:
         z.extractall(tmp)
 
-    png_out = output_dir / "assets/card_templates/3.0.0-rc.1/png"
     webp_out = output_dir / "assets/card_templates/3.0.0-rc.1/webp"
-    png_out.mkdir(parents=True, exist_ok=True)
     webp_out.mkdir(parents=True, exist_ok=True)
 
     fill = (33, 19, 9)
@@ -45,7 +43,6 @@ def main(zip_path, output_dir):
         draw = ImageDraw.Draw(img)
         for box in blank_regions:
             draw.rectangle(box, fill=fill)
-        img.save(png_out / f"{class_id}.png", optimize=True)
         img.save(webp_out / f"{class_id}.webp", "WEBP", quality=88, method=6)
         print("OK", class_id)
 

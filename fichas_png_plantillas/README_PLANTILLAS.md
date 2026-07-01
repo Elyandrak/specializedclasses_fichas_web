@@ -4,10 +4,10 @@ Carpeta base para sustituir las fichas PNG estáticas por fichas dinámicas expo
 
 ## Qué contiene
 
-- `assets/card_templates/3.0.0-rc.1/webp/`: plantillas ligeras por clase.
-- `assets/card_templates/3.0.0-rc.1/png/`: mismas plantillas en PNG como respaldo editable.
+- `assets/card_templates/3.0.0-rc.1/webp/`: 16 plantillas ligeras por clase.
 - `data/card_layouts/3.0.0-rc.1.json`: coordenadas donde inyectar título, stats, bonus, malus, recetas y categorías.
-- `data/card_template_manifest.json`: manifiesto de versiones/clases/plantillas.
+- `data/card_templates.js`: manifiesto ligero consumido directamente por GitHub Pages y carga local.
+- `data/card_template_manifest.json`: descripción legible de versiones, clases y herencia visual.
 - `scripts/create_templates_from_static_png.py`: script reproducible para regenerar estas plantillas desde PNG estáticos.
 - `demo/demo_template.html`: ejemplo mínimo de overlay HTML encima de una plantilla.
 
@@ -20,11 +20,11 @@ Debe guardar una plantilla visual por clase y generar el texto en tiempo real se
 version activa + lang activo + classId
 ```
 
-Después, el botón `Exportar PNG` captura la ficha renderizada en navegador.
+Después, el botón `Exportar PNG` dibuja la ficha en Canvas y la descarga desde el navegador.
 
 ## Importante
 
-Estas plantillas se han creado desde los PNG españoles de `3.0.0-rc.1`.  
+Estas plantillas se crearon desde los PNG españoles de `3.0.0-rc.1`. La versión `2.2.2` reutiliza únicamente su base visual; sus datos se cargan desde la carpeta versionada correspondiente.  
 El texto se ha eliminado por zonas. Las plantillas conservan:
 
 - marco

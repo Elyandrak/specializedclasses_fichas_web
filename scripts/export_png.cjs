@@ -14,6 +14,7 @@ function loadPlaywright() {
 
 const { chromium } = loadPlaywright();
 const root = path.resolve(__dirname, '..');
+const defaultOutput = path.resolve(root, '..', 'exports_generados_2.6.4');
 const allVersions = ['3.0.0-rc.1', '2.2.2'];
 const allLanguages = ['es', 'en', 'de', 'ru', 'uk', 'pt', 'fr', 'ca', 'it'];
 const args = process.argv.slice(2);
@@ -23,8 +24,10 @@ function argValues(name, defaults) {
   return item ? item.split('=')[1].split(',').map(value => value.trim()).filter(Boolean) : defaults;
 }
 
-const versions = argValues('versions', allVersions);
-const languages = argValues('languages', allLanguages);
+function argValue(name, fallback) {
+  const item = args.find(value => value.startsWith(`--${name}=`));
+  return item ? item.slice(item.indexOf('=') + 1) : fallback;
+}
 
 function browserExecutable() {
   if (process.env.SC_BROWSER_EXECUTABLE) return process.env.SC_BROWSER_EXECUTABLE;
@@ -34,97 +37,44 @@ function browserExecutable() {
   return candidates.find(fs.existsSync) || chromium.executablePath();
 }
 
-async function waitForImages(page) {
-  await page.evaluate(async () => {
-    const images = [...document.images];
-    await Promise.all(images.map(image => image.complete ? image.decode().catch(() => {}) : new Promise(resolve => {
-      image.addEventListener('load', resolve, { once: true });
-      image.addEventListener('error', resolve, { once: true });
-    })));
-  });
-}
-
-async function waitForPaint(page) {
-  await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
-}
-
-function removeLegacyRootExports() {
-  for (const [folder, extension] of [['fichas_png', '.png'], ['fichas_md', '.md']]) {
-    const base = path.join(root, folder);
-    if (!fs.existsSync(base)) continue;
-    for (const entry of fs.readdirSync(base, { withFileTypes: true })) {
-      if (entry.isFile() && entry.name.toLowerCase().endsWith(extension)) fs.rmSync(path.join(base, entry.name));
-    }
-  }
-}
-
-function buildManifest() {
-  const files = [], mdFiles = [];
-  function visit(dir,target) {
-    if (!fs.existsSync(dir)) return;
-    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      const full = path.join(dir, entry.name);
-      if (entry.isDirectory()) visit(full,target);
-      else if (entry.name.toLowerCase().endsWith(target===files?'.png':'.md')) target.push(path.relative(root, full).replace(/\\/g, '/'));
-    }
-  }
-  visit(path.join(root,'fichas_png'),files); visit(path.join(root,'fichas_md'),mdFiles);
-  files.sort(); mdFiles.sort();
-  const body = `window.SC_PNG_MANIFEST = ${JSON.stringify({ generatedAt: new Date().toISOString(), files, mdFiles }, null, 2)};\n`;
-  fs.writeFileSync(path.join(root, 'data', 'png_manifest.js'), body, 'utf8');
-  return { files, mdFiles };
-}
+const versions = argValues('versions', allVersions);
+const languages = argValues('languages', allLanguages);
+const outputRoot = path.resolve(argValue('output', defaultOutput));
 
 (async () => {
   for (const version of versions) if (!allVersions.includes(version)) throw new Error(`Versión no soportada: ${version}`);
   for (const lang of languages) if (!allLanguages.includes(lang)) throw new Error(`Idioma no soportado: ${lang}`);
   const { server, port } = await startStaticServer(root, 0);
   const browser = await chromium.launch({ headless: true, executablePath: browserExecutable() });
-  const exportUrl = `http://127.0.0.1:${port}/ficha_export.html`;
-  const generated = [];
-  removeLegacyRootExports();
-
-  for (const version of versions) {
-    for (const lang of languages) {
-      const outDir = path.join(root, 'fichas_png', version, lang);
-      const mdDir = path.join(root, 'fichas_md', version, lang);
-      fs.rmSync(outDir, { recursive: true, force: true });
-      fs.rmSync(mdDir, { recursive: true, force: true });
-      fs.mkdirSync(outDir, { recursive: true });
-      fs.mkdirSync(mdDir, { recursive: true });
-      const context = await browser.newContext({ viewport: { width: 1240, height: 1754 }, deviceScaleFactor: 1 });
-      const page = await context.newPage();
-      await page.goto(`${exportUrl}?version=${encodeURIComponent(version)}&lang=${encodeURIComponent(lang)}&export=png`, { waitUntil: 'domcontentloaded', timeout: 120000 });
-      await page.waitForSelector('#exportSheet', { state: 'visible', timeout: 120000 });
-      const classes = await page.evaluate(() => window.SC_APP.getExportClasses());
-      const session = await context.newCDPSession(page);
-
-      for (const item of classes) {
-        await page.evaluate(id => window.SC_APP.renderExportClass(id), item.id);
-        await page.waitForSelector(`#exportSheet[data-class="${item.id}"]`, { state: 'visible', timeout: 30000 });
-        await waitForImages(page);
-        await waitForPaint(page);
-        const clip = await page.evaluate(() => {
-          const rect = document.querySelector('#exportSheet').getBoundingClientRect();
-          return { x: rect.x, y: rect.y, width: rect.width, height: rect.height, scale: 1 };
-        });
-        const shot = await session.send('Page.captureScreenshot', { format: 'png', fromSurface: true, captureBeyondViewport: false, clip });
-        const output = path.join(outDir, item.filename);
-        fs.writeFileSync(output, Buffer.from(shot.data, 'base64'));
-        const markdown = await page.evaluate(id => window.SC_APP.getExportMarkdown(id), item.id);
-        fs.writeFileSync(path.join(mdDir, item.mdFilename), markdown, 'utf8');
-        generated.push(path.relative(root, output).replace(/\\/g, '/'));
+  let generated = 0;
+  try {
+    for (const version of versions) {
+      for (const lang of languages) {
+        const context = await browser.newContext({ viewport: { width: 1240, height: 1754 } });
+        const page = await context.newPage();
+        await page.goto(`http://127.0.0.1:${port}/ficha_export.html?version=${encodeURIComponent(version)}&lang=${encodeURIComponent(lang)}`, { waitUntil: 'domcontentloaded', timeout: 120000 });
+        await page.waitForFunction(() => window.SC_APP?.getState().ready, null, { timeout: 120000 });
+        const classes = await page.evaluate(() => window.SC_APP.getExportClasses());
+        const pngDir = path.join(outputRoot, 'fichas_png', version, lang);
+        const mdDir = path.join(outputRoot, 'fichas_md', version, lang);
+        fs.mkdirSync(pngDir, { recursive: true });
+        fs.mkdirSync(mdDir, { recursive: true });
+        for (const item of classes) {
+          const dataUrl = await page.evaluate(id => window.SC_APP.createPngDataUrl(id), item.id);
+          fs.writeFileSync(path.join(pngDir, item.filename), Buffer.from(dataUrl.split(',')[1], 'base64'));
+          const markdown = await page.evaluate(id => window.SC_APP.getExportMarkdown(id), item.id);
+          fs.writeFileSync(path.join(mdDir, item.mdFilename), markdown, 'utf8');
+          generated += 1;
+        }
+        await context.close();
+        process.stdout.write(`${version}/${lang}: ${classes.length} PNG + MD\n`);
       }
-      await session.detach();
-      await context.close();
-      process.stdout.write(`${version}/${lang}: ${classes.length} PNG\n`);
     }
+  } finally {
+    await browser.close();
+    await new Promise(resolve => server.close(resolve));
   }
-
-  const manifest = buildManifest();
-  await browser.close();
-  await new Promise(resolve => server.close(resolve));
-  process.stdout.write(`Generados en esta ejecución: ${generated.length}\nPNG en manifiesto: ${manifest.files.length}\nMD en manifiesto: ${manifest.mdFiles.length}\n`);
+  process.stdout.write(`Generados: ${generated} PNG + ${generated} MD\nDestino externo: ${outputRoot}\n`);
 })().catch(error => {
   console.error(error);
   process.exitCode = 1;
