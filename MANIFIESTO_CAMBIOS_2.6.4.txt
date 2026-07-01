@@ -1,0 +1,22 @@
+Web/documentación 2.6.4
+
+Modificados:
+- assets/js/app.js
+- assets/js/png_export.js
+- assets/css/styles.css
+- data/i18n/content_i18n.js
+- fichas_png_plantillas/data/card_templates.js
+- fichas_png_plantillas/data/card_template_manifest.json
+- fichas_png_plantillas/data/card_layouts/3.0.0-rc.1.json
+- ficha_export.html y páginas HTML principales
+- scripts/export_png.cjs
+- package.json
+- documentación de versión, i18n, plantillas y exportación
+
+Eliminados de la web activa:
+- fichas_png/
+- fichas_md/
+- data/png_manifest.js
+- copias PNG redundantes dentro de fichas_png_plantillas/
+
+Nota: 2.6.4 es la versión de la web/documentación, no del mod.

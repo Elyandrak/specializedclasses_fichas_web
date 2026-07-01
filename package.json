@@ -1,9 +1,9 @@
 {
   "name": "specialized-classes-dynamic-guide",
-  "version": "2.6.3",
+  "version": "2.6.4",
   "private": true,
   "scripts": {
-    "export:png": "node scripts/export_png.cjs",
+    "export:batch": "node scripts/export_png.cjs",
     "serve": "node scripts/static_server.cjs"
   },
   "devDependencies": {

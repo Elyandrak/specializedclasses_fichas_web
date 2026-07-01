@@ -83,4 +83,4 @@ clase.html?class=archivist&version=3.0.0-rc.1&lang=es
 
 Así se evita crecimiento exponencial.
 
-Las exportaciones no duplican páginas HTML: una sola plantilla `ficha_export.html` genera los PNG/MD versionados y localizados.
+Las exportaciones no duplican páginas HTML ni archivos finales. `assets/js/app.js` construye un modelo con los datos de `version` y `lang`; `assets/js/png_export.js` lo dibuja sobre la plantilla WebP de la clase y descarga el PNG desde el navegador. El MD se crea del mismo modo bajo demanda.

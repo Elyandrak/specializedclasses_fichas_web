@@ -1,4 +1,4 @@
-Versión web/documentación: 2.6.3
-Base usada: web 2.6.2.
-Alcance: i18n centralizado, contenido interno localizado y exportaciones PNG/MD por versión del mod e idioma.
-2.6.3 es una versión de la web/documentación, no del mod Specialized Classes.
+Versión web/documentación: 2.6.4
+Base usada: web 2.6.3.
+Alcance: plantillas visuales reutilizables y exportaciones PNG/MD generadas bajo demanda según versión e idioma.
+2.6.4 es una versión de la web/documentación, no del mod Specialized Classes.

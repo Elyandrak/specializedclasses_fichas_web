@@ -1,5 +1,6 @@
 Web/documentación Specialized Classes
-Versión web: 2.6.3
-Base: web 2.6.2.
-Cambio destacado: resolución i18n centralizada y exportaciones PNG/MD por versión del mod e idioma.
-Nota: 2.6.3 es la versión de esta web/documentación, no una versión del mod Specialized Classes.
+Versión web: 2.6.5
+Base: web 2.6.4 + corrección de flujo PNG/MD.
+Cambio destacado: en las tarjetas principales los enlaces vuelven a abrir la ficha PNG o el documento MD; solo dentro de la ficha PNG aparece el botón de exportar PNG.
+Corrección técnica: carga de plantillas vía Blob local para evitar canvas tainted al exportar.
+Nota: 2.6.5 es la versión de esta web/documentación, no una versión del mod Specialized Classes.

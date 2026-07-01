@@ -1,3 +1,23 @@
+# Web 2.6.5
+
+- Corregido el flujo de enlaces de las tarjetas principales.
+- `Ficha PNG` abre ahora la vista dinámica de ficha PNG.
+- `Ficha MD` abre ahora el documento MD dinámico.
+- El botón `Exportar PNG` queda solo dentro de la ficha PNG.
+- Añadida página dinámica `ficha_md.html`.
+- Corregida la exportación PNG para evitar el error `Tainted canvases may not be exported` cargando plantillas como Blob local antes de dibujar en Canvas.
+
+# Web 2.6.4
+
+- Eliminada de la web activa la carpeta `fichas_png/` con 279 capturas finales repetidas.
+- Eliminada la carpeta estática `fichas_md/`; los Markdown se descargan ahora bajo demanda.
+- Las fichas PNG se dibujan bajo demanda en Canvas a partir de plantillas WebP de `fichas_png_plantillas/`.
+- Texto, stats, bonus, malus, recetas y categorías se inyectan desde la versión del mod y el idioma activos.
+- Los botones de exportación generan nombres con clase, versión e idioma y funcionan sin backend.
+- `data/png_manifest.js` deja de ser necesario; `card_templates.js` actúa como manifiesto ligero de plantillas.
+- La exportación en lote es opcional y escribe por defecto fuera de la carpeta web publicada.
+- `2.6.4` identifica la versión de la web/documentación; no es una versión del mod.
+
 # Web 2.6.3
 
 - Resolver único de textos con prioridad: idioma activo → inglés → español → texto técnico.

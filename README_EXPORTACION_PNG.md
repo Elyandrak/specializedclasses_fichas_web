@@ -1,35 +1,41 @@
-# Exportación PNG por versión e idioma
+# Exportación dinámica PNG/MD — web 2.6.5
 
-La web 2.6.3 genera las fichas PNG desde `ficha_export.html`, la misma capa de datos e i18n usada por las páginas dinámicas. No se dibujan manualmente y no se usa IA. El exportador levanta un servidor HTTP local efímero para reproducir el comportamiento de GitHub Pages.
+`2.6.5` es la versión de la web/documentación, no una versión del mod Specialized Classes.
 
-## Preparación
+## Funcionamiento publicado
 
-```powershell
-npm install
-```
+La web no almacena fichas PNG finales.
 
-## Generar todas las fichas
+En la página principal:
+- **Ficha PNG** abre la ficha PNG dinámica (`ficha_export.html`) de la clase, versión e idioma activos.
+- **Ficha MD** abre el documento Markdown dinámico (`ficha_md.html`) de la clase, versión e idioma activos.
 
-```powershell
-npm run export:png
-```
+Dentro de la ficha PNG:
+1. La web toma clase, versión del mod e idioma activos.
+2. Construye el modelo localizado con título, resumen, stats, bonus, malus, recetas y categorías.
+3. `assets/js/png_export.js` carga la plantilla WebP desde `fichas_png_plantillas/`.
+4. La plantilla se carga como `Blob URL` local para evitar canvas tainted.
+5. El navegador dibuja plantilla y textos en un Canvas de 1240×1754.
+6. El botón **Exportar PNG** descarga `<clase>_<version>_<lang>.png` sin backend.
 
-El comando crea:
+El documento MD se genera dinámicamente en navegador y puede descargarse desde la propia vista MD.
+
+## Plantillas
 
 ```text
-fichas_png/<version>/<lang>/<ficha>.png
+fichas_png_plantillas/
+  assets/card_templates/3.0.0-rc.1/webp/
+  data/card_templates.js
+  data/card_template_manifest.json
+  data/card_layouts/3.0.0-rc.1.json
 ```
 
-También genera los MD localizados en `fichas_md/<version>/<lang>/` y regenera `data/png_manifest.js`. La web consulta ese manifiesto para ofrecer los archivos del idioma y versión activos. Si falta una combinación, prueba inglés y después español; si tampoco existe, muestra un estado no disponible y no crea un enlace roto.
+## Validación recomendada
 
-## Generación parcial
-
-```powershell
-node scripts/export_png.cjs --versions=2.2.2 --languages=de,fr
-```
-
-Variables opcionales:
-
-- `SC_BROWSER_EXECUTABLE`: ruta a Chrome/Edge/Chromium si Playwright no tiene navegador instalado.
-
-La plantilla se captura a `1240×1754` píxeles. Los valores, conteos, stats y categorías siempre proceden de `data/mod_versions/<version>/`.
+- Abrir `index.html?version=3.0.0-rc.1&lang=es`.
+- Pulsar **Ficha PNG** en una clase.
+- Confirmar que abre `ficha_export.html?...`.
+- Pulsar **Exportar PNG** dentro de la ficha.
+- Confirmar que descarga PNG.
+- Volver a portada y pulsar **Ficha MD**.
+- Confirmar que abre `ficha_md.html?...`.
