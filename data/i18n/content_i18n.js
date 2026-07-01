@@ -15,7 +15,32 @@
     ca:{pngUnavailable:"PNG no disponible",pngFallback:"PNG mostrat mitjançant fallback",exportHumanReading:"Resum entenedor",exportDataSource:"Dades dinàmiques de la versió del mod seleccionada",exportFooter:"Fitxa generada amb la mateixa plantilla dinàmica del web.",officialDescription:"Descripció oficial",fallbackEnglish:"Text tècnic disponible en anglès",footerDynamic:"Les dades depenen de la versió del mod seleccionada; version i lang es mantenen durant la navegació."},
     it:{pngUnavailable:"PNG non disponibile",pngFallback:"PNG mostrato tramite fallback",exportHumanReading:"Riepilogo leggibile",exportDataSource:"Dati dinamici della versione della mod selezionata",exportFooter:"Scheda generata dallo stesso modello dinamico del sito.",officialDescription:"Descrizione ufficiale",fallbackEnglish:"Testo tecnico disponibile in inglese",footerDynamic:"I dati dipendono dalla versione della mod selezionata; version e lang vengono mantenuti durante la navigazione."}
   };
-  ids.forEach(id=>Object.assign(root.ui?.[id]||{},uiExtra[id]||uiExtra.en));
+  const exportUi={
+    es:{exportPng:"Exportar PNG",exportMd:"Exportar MD",openPng:"Ficha PNG",openMd:"Ficha MD",downloadMd:"Descargar MD",mdDocument:"Documento MD",exportingPng:"Generando PNG…",exportPngFailed:"No se pudo generar el PNG",templatePreview:"Vista previa dinámica de la plantilla"},
+    en:{exportPng:"Export PNG",exportMd:"Export MD",openPng:"PNG card",openMd:"MD document",downloadMd:"Download MD",mdDocument:"MD document",exportingPng:"Generating PNG…",exportPngFailed:"The PNG could not be generated",templatePreview:"Dynamic template preview"},
+    de:{exportPng:"PNG exportieren",exportMd:"MD exportieren",openPng:"PNG-Karte",openMd:"MD-Dokument",downloadMd:"MD herunterladen",mdDocument:"MD-Dokument",exportingPng:"PNG wird erstellt…",exportPngFailed:"PNG konnte nicht erstellt werden",templatePreview:"Dynamische Vorlagenvorschau"},
+    ru:{exportPng:"Экспорт PNG",exportMd:"Экспорт MD",openPng:"PNG-карточка",openMd:"MD-документ",downloadMd:"Скачать MD",mdDocument:"MD-документ",exportingPng:"Создание PNG…",exportPngFailed:"Не удалось создать PNG",templatePreview:"Предпросмотр динамического шаблона"},
+    uk:{exportPng:"Експорт PNG",exportMd:"Експорт MD",openPng:"PNG-картка",openMd:"MD-документ",downloadMd:"Завантажити MD",mdDocument:"MD-документ",exportingPng:"Створення PNG…",exportPngFailed:"Не вдалося створити PNG",templatePreview:"Попередній перегляд динамічного шаблону"},
+    pt:{exportPng:"Exportar PNG",exportMd:"Exportar MD",openPng:"Ficha PNG",openMd:"Documento MD",downloadMd:"Descarregar MD",mdDocument:"Documento MD",exportingPng:"A gerar PNG…",exportPngFailed:"Não foi possível gerar o PNG",templatePreview:"Pré-visualização dinâmica do modelo"},
+    fr:{exportPng:"Exporter en PNG",exportMd:"Exporter en MD",openPng:"Fiche PNG",openMd:"Document MD",downloadMd:"Télécharger le MD",mdDocument:"Document MD",exportingPng:"Génération du PNG…",exportPngFailed:"Impossible de générer le PNG",templatePreview:"Aperçu dynamique du modèle"},
+    ca:{exportPng:"Exportar PNG",exportMd:"Exportar MD",openPng:"Fitxa PNG",openMd:"Document MD",downloadMd:"Descarregar MD",mdDocument:"Document MD",exportingPng:"S'està generant el PNG…",exportPngFailed:"No s'ha pogut generar el PNG",templatePreview:"Previsualització dinàmica de la plantilla"},
+    it:{exportPng:"Esporta PNG",exportMd:"Esporta MD",openPng:"Scheda PNG",openMd:"Documento MD",downloadMd:"Scarica MD",mdDocument:"Documento MD",exportingPng:"Generazione PNG…",exportPngFailed:"Impossibile generare il PNG",templatePreview:"Anteprima dinamica del modello"}
+  };
+  ids.forEach(id=>Object.assign(root.ui?.[id]||{},uiExtra[id]||uiExtra.en,exportUi[id]||exportUi.en));
+
+  const dynamicExportTitle='Exportación PNG dinámica';
+  const dynamicExportBody='La web usa estos archivos de datos para dibujar la ficha actual bajo demanda. Si cambian usage_ES.js o traits_ES.js, el siguiente PNG o MD exportado incorpora el cambio automáticamente.';
+  const dynamicExportText={
+    en:['Dynamic PNG export','The website uses these data files to draw the current card on demand. If usage_ES.js or traits_ES.js changes, the next exported PNG or MD includes the change automatically.'],
+    de:['Dynamischer PNG-Export','Die Website zeichnet die aktuelle Karte bei Bedarf aus diesen Datendateien. Änderungen an usage_ES.js oder traits_ES.js erscheinen automatisch im nächsten PNG- oder MD-Export.'],
+    ru:['Динамический экспорт PNG','Сайт использует эти файлы данных для создания текущей карточки по запросу. Изменения usage_ES.js или traits_ES.js автоматически попадут в следующий экспорт PNG или MD.'],
+    uk:['Динамічний експорт PNG','Сайт використовує ці файли даних для створення поточної картки на вимогу. Зміни usage_ES.js або traits_ES.js автоматично потраплять до наступного експорту PNG або MD.'],
+    pt:['Exportação PNG dinâmica','O site usa estes ficheiros de dados para desenhar a ficha atual sob demanda. Alterações em usage_ES.js ou traits_ES.js entram automaticamente no próximo PNG ou MD exportado.'],
+    fr:['Export PNG dynamique','Le site utilise ces fichiers de données pour dessiner la fiche actuelle à la demande. Toute modification de usage_ES.js ou traits_ES.js apparaît automatiquement dans le prochain PNG ou MD exporté.'],
+    ca:['Exportació PNG dinàmica','El web utilitza aquests fitxers de dades per dibuixar la fitxa actual sota demanda. Els canvis a usage_ES.js o traits_ES.js s’incorporen automàticament al següent PNG o MD exportat.'],
+    it:['Esportazione PNG dinamica','Il sito usa questi file di dati per disegnare la scheda corrente su richiesta. Le modifiche a usage_ES.js o traits_ES.js vengono incluse automaticamente nel successivo PNG o MD esportato.']
+  };
+  Object.entries(dynamicExportText).forEach(([id,[title,body]])=>{exact[id][dynamicExportTitle]=title;exact[id][dynamicExportBody]=body;});
 
   Object.assign(exact.fr,{
     "Recoger no es romper":"Ramasser n’est pas casser",

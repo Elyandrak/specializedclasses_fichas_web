@@ -673,8 +673,8 @@ window.SC_MOD_VERSION_DATA["3.0.0-rc.1"]["usage"] = {
       "body_es": "Algunos objetos/herramientas aparecen solo si está instalado otro mod compatible. Ejemplo: Relojero usa wrench/llave inglesa en recetas de Millwright; algunas recetas de Tailor's Delight usan spindle alternativo."
     },
     {
-      "title_es": "Los PNG son exportación",
-      "body_es": "La web dinámica usa estos archivos de datos. Si se corrige usage_ES.js o traits_ES.js, las fichas dinámicas cambian; los PNG/MD quedan como capturas estáticas."
+      "title_es": "Exportación PNG dinámica",
+      "body_es": "La web usa estos archivos de datos para dibujar la ficha actual bajo demanda. Si cambian usage_ES.js o traits_ES.js, el siguiente PNG o MD exportado incorpora el cambio automáticamente."
     }
   ],
   "traitUsageNotes": {
